@@ -1,0 +1,55 @@
+.statbody{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
+}
+
+.titulo-primera-grafica{
+    color: #1062ae;  
+  }
+  
+
+.statwidget-estadisticas{display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-height: 150px;
+    margin: 40px 100px 70px;
+    background-size: cover;
+    border-radius: .25rem;
+    box-shadow: 0 0 0.25rem rgba(0,0,0,.08), 0 0.5rem 0.75rem rgba(0,0,0,.14);
+    padding: 20px;
+  }
+
+  .separation{
+    flex-wrap: wrap;
+    -ms-flex-item-align: center;
+  }
+
+  .statwidget-estadisticas p{
+    font-size: 25px;
+    font-weight: 400;
+      text-align: center;
+    color: #5a5656;}
+    
+  
+  .statwidget-estadisticas section{
+    font-size: 25px;
+    font-weight: 700;
+      text-align: center;
+      color: #1062ae;
+  }
+
+  .grafica{
+    display: -ms-flexbox;
+      display: flex;
+      -ms-flex: 1 1 200px;
+      flex: 1 1 200px;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      min-height: 150px;
+      overflow: hidden;
+      margin: 0 15px 40px;
+      background-size: cover;
+      border-radius: .25rem;
+      box-shadow: 0 0 0.25rem rgba(0,0,0,.08), 0 0.5rem 0.75rem rgba(0,0,0,.14);
+      padding: 20px;
+  }
