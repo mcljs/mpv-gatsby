@@ -1,0 +1,373 @@
+$font: "Helvetica Neue", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+  Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+
+// Colors
+$white: #fff;
+$black: #000;
+$maroon: #83333e;
+$off-white: #f2f4f5;
+
+html,
+body {
+  font-family: $font;
+  font-size: 16px;
+  padding: 0;
+  margin: 0;
+}
+
+// Styles
+
+//Coontainer
+.container {
+  min-width: 1640px;
+  width: 1640px;
+  margin: 0 auto;
+
+  @media (max-width: 1440px) {
+    width: 1200px;
+    min-width: 1200px;
+  }
+
+  @media (max-width: 1200px) {
+    width: 976px;
+    min-width: 976px;
+  }
+
+  @media (max-width: 976px) {
+    width: 768px;
+    min-width: 768px;
+  }
+}
+
+//Header
+header {
+  height: 80px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  z-index: 10;
+
+  .inner-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+
+    .logo {
+      a {
+        font-weight: 700;
+        text-decoration: none;
+        letter-spacing: 1.5px;
+        color: $black;
+      }
+    }
+    .navigation {
+      nav {
+        a {
+          margin: 0 20px;
+          text-decoration: none;
+          letter-spacing: 1.75px;
+          text-transform: uppercase;
+          font-size: 0.75rem;
+          color: $black;
+
+          &:last-child {
+            margin-right: 0;
+          }
+        }
+      }
+    }
+  }
+}
+
+//Banner
+.banner {
+  display: flex;
+  align-items: center;
+  background-color: $white;
+  position: relative;
+  height: 100vh;
+
+  .row {
+    position: relative;
+
+    .main-text {
+      font-size: 5.8rem;
+      text-transform: uppercase;
+      letter-spacing: 42px;
+      font-weight: 700;
+      color: $white;
+      position: absolute;
+      width: 100%;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      mix-blend-mode: difference;
+      z-index: 9;
+
+      @media (max-width: 1440px) {
+        font-size: 4.4rem;
+        letter-spacing: 36px;
+      }
+    }
+
+    .main-image {
+      width: 536px;
+      margin: 0 auto;
+
+      @media (max-width: 1440px) {
+        width: 435px;
+      }
+    }
+
+    .side-image {
+      width: 260px;
+      position: absolute;
+
+      @media (max-width: 1440px) {
+        width: 200px;
+      }
+
+      &.left {
+        left: 160px;
+        top: 12px;
+
+        @media (max-width: 1440px) {
+          left: 120px;
+        }
+      }
+
+      &.right {
+        right: 160px;
+        bottom: 12px;
+
+        @media (max-width: 1440px) {
+          right: 120px;
+        }
+      }
+    }
+  }
+
+  .scroll {
+    font-weight: 700;
+    font-size: 0.874rem;
+    letter-spacing: 1.5px;
+    color: $black;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 48px;
+  }
+
+  .fixed-misc {
+    position: fixed;
+    top: 50%;
+    right: -40px;
+    transform: rotate(-90deg);
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 0.875rem;
+    letter-spacing: 1.5px;
+    color: $white;
+    mix-blend-mode: difference;
+    z-index: 8;
+
+    @media (max-width: 1440px) {
+      right: -112px;
+    }
+  }
+}
+
+//About blurb
+.about-blurb {
+  padding: 40px 0;
+  background: white;
+  position: relative;
+
+  .inner-blurb {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .content {
+      width: 33%;
+
+      @media (max-width: 1440px) {
+        width: 40%;
+      }
+
+      h3 {
+        font-weight: 700;
+        text-transform: uppercase;
+        font-size: 1.8rem;
+        margin: 0;
+      }
+
+      p {
+        font-size: 1rem;
+        line-height: 2rem;
+        font-weight: 300;
+        margin: 30px 0 72px;
+      }
+
+      .btn-row {
+        a {
+          font-weight: 700;
+          font-size: 0.875rem;
+          letter-spacing: 1.5px;
+          color: $black;
+          text-transform: uppercase;
+          text-decoration: none;
+        }
+      }
+    }
+    .images {
+      width: 50%;
+      height: 1000px;
+      position: relative;
+      z-index: 7;
+
+      @media (max-width: 1440px) {
+        height: 800px;
+      }
+
+      .top-right {
+        position: absolute;
+        width: 460px;
+        top: 0;
+        right: 0;
+        z-index: 4;
+
+        @media (max-width: 1440px) {
+          height: 360px;
+        }
+      }
+
+      .bottom-left {
+        position: absolute;
+        width: 410px;
+        left: 0;
+        bottom: 0;
+
+        @media (max-width: 1440px) {
+          height: 310px;
+        }
+      }
+    }
+  }
+  .black-box {
+
+    background: url("../../images/img-1.jpeg") center center/cover no-repeat;
+    height: 100vh;
+    height: 418px;
+    width: 836px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+
+    @media (max-width: 1440px) {
+      height: 636px;
+      height: 340px;
+    }
+
+    &.overlay {
+      z-index: 7;
+      background: $maroon;
+      mix-blend-mode: overlay;
+    }
+  }
+}
+
+// video section
+
+.video-section {
+  margin-top: 160px;
+
+  .container {
+    .video-player {
+      width: 100%;
+      margin: 0 auto;
+
+      video {
+        width: 100%;
+        outline: none;
+      }
+    }
+
+    .video-content {
+      display: flex;
+      justify-content: space-between;
+      margin: 80px 0 120px;
+
+      .title {
+        width: 50%;
+
+        h3 {
+          font-weight: 700;
+          text-transform: uppercase;
+          font-size: 1.8rem;
+          letter-spacing: 1.5px;
+          margin: 0;
+        }
+      }
+      .content {
+        width: 50%;
+
+        p {
+
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+          font-size: 1rem;
+          line-height: 2rem;
+          font-weight: 300;
+          margin: 0;
+        }
+      }
+    }
+  }
+}
+
+//footer
+footer {
+  .featured-companies {
+    background: $black;
+    height: 200px;
+    display: flex;
+    align-items: center;
+
+    .container {
+      ul {
+        display: flex;
+        justify-content: space-around;
+        padding: 0;
+        align-items: center;
+        flex-direction: row;
+
+        li {
+          text-align: center;
+
+          img {
+            width: 50%;
+          }
+        }
+      }
+    }
+  }
+  .footer {
+    background: $off-white;
+    height: 80px;
+
+    .inner {
+      padding: 0 120px;
+      height: 80px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .socials {
+        a {
+          margin: 0 8px;
+        }
+      }
+    }
+  }
+}

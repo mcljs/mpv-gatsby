@@ -45,7 +45,7 @@ export default function NavBar() {
                         <NavLinks to="/blog">Blog</NavLinks>
                     </NavItem>
                     <NavItem>
-                        <NavLinks to="/privacy">Políticas de privacidad</NavLinks>
+                        <NavLinks to="/gbmp">Grandes Bases</NavLinks>
                     </NavItem>
                     <NavItem>
                         <NavLinks to="/nosotros">Nosotros</NavLinks>

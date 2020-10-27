@@ -15,6 +15,7 @@ module.exports = {
         anonymize: true,
       },
     },
+    `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-styled-components`,
     // nned to be  the first to work with gatsby-remark-images
