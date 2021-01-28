@@ -1,11 +1,13 @@
 ---
 date: 2020-09-26 21:21:22
-title: Día 194 de la lucha contra la COVID-19 Venezuela registra 823 casos comunitarios, 44 importados
+title: Día 194 de la lucha contra la COVID-19 Venezuela registra 823 casos
+  comunitarios, 44 importados
 description: Relevante
 category: Relevante
-background: "red"
-image: "/assets/img/img-1.png"
-
+background: red
+image: /assets/img/img-1.jpg
+twitter_text: Día 194 de la lucha contra la COVID-19 Venezuela registra 823
+  casos comunitarios, 44 importados
 ---
 
 ![Freddy-Ñanez](/assets/img/img-1.png)
