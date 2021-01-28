@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import logo from '../../images/mpv-logo.png'
 import {FaBars,FaTimes} from 'react-icons/fa';
 import {IconContext} from 'react-icons/lib';
-import {Nav,NavbarContainer,ImgIcon,NavLogo,NavIcon,MobileIcon,NavMenu,NavItem,NavLinks} from "./NavBarElements"
+import {Nav,NavbarContainer,NavLogo,NavIcon,MobileIcon,NavMenu,NavItem,NavLinks} from "./NavBarElements"
 import { FaSearch } from 'react-icons/fa'
 
 export default function NavBar() {
@@ -32,7 +32,7 @@ export default function NavBar() {
             <NavbarContainer>
                 <NavLogo to="/">
                     <NavIcon/>
-                    <ImgIcon src={logo} width="100" height="70" />
+                    <img src={logo} width='100' height='70' alt={logo}/>
                 </NavLogo>
                 <MobileIcon onClick={handleClick}>
                     {click? <FaTimes/> : <FaBars />}
@@ -42,7 +42,7 @@ export default function NavBar() {
                         <NavLinks to="/">Inicio</NavLinks>
                     </NavItem>
                     <NavItem>
-                        <NavLinks className="animate__animated animate__fadeIn" to="/blog">Noticias</NavLinks>
+                        <NavLinks  to="/blog">Noticias</NavLinks>
                     </NavItem>
                     <NavItem>
                         <NavLinks to="/gbmp">Grandes Bases</NavLinks>

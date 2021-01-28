@@ -2,7 +2,7 @@ import React, { useState, useRef } from "react"
 import { navigate } from "@reach/router"
 import { MainContent } from './styles/base'
 import './search.css'
-import { FaSearch} from 'react-icons/fa'
+//import { FaSearch} from 'react-icons/fa'
 const SearchForm = ({ initialQuery = "" }) => {
   // Create a piece of state, and initialize it to initialQuery
   // query will hold the current value of the state,
@@ -40,7 +40,7 @@ const SearchForm = ({ initialQuery = "" }) => {
         placeholder="Buscar"
         onChange={handleChange}
       />
-      <button className="button" type="submit"><FaSearch/></button>
+      <button className="button" type="submit">Buscar</button>
       </div>
       </MainContent>
     </form>

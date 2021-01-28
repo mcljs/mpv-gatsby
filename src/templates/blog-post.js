@@ -17,7 +17,8 @@ import RecommendedPosts from "../components/RecommendedPosts"
       <SEO title={post.frontmatter.title}
         description={post.frontmatter.description}
         //image={post.frontmatter.image}
-        image={`https://movimiento-por-la-paz-y-la-vida.netlify.app${post.frontmatter.image}`}/>
+        image={`https://movimiento-por-la-paz-y-la-vida.netlify.app${post.frontmatter.image?.publicURL}`}
+        />
       <S.PostHeader>
         <S.PostDate>
           {post.frontmatter.date} • {post.timeToRead} min de lectura
@@ -48,8 +49,8 @@ query Post($slug: String!) {
       description
       date(locale: "es-ve", formatString: "DD [de] MMMM [de] YYYY")
      image{
-       absolutePath
-     }
+       publicURL
+            }
     }
     html
     timeToRead

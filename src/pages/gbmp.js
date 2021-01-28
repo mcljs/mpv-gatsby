@@ -2,16 +2,16 @@ import React from 'react';
 import Layout from '../components/layout';
 import SEO from '../components/Seo';
 import '../../src/components/layout.css';
-import { MainContent } from '../components/styles/base';
+//import { MainContent } from '../components/styles/base';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {Table} from 'react-bootstrap';
+//import {Table} from 'react-bootstrap';
 const Privacy = () => (
     <Layout>
        
         <SEO title="Grandes Bases de Misiones de Paz" />
         <h1 className="privacy">Grandes Bases</h1>
         
-        <MainContent>
+      {/* <MainContent>
             <h1 >GRANDE BASES DE MISIONES A NIVEL NACIONAL</h1>
             
             <p>Para saber de nuestra ubicación especifica ingresa al Link que se encuentra en <strong>"COORDENADAS UTM"</strong> de la Base de tu preferencia.</p>
@@ -102,7 +102,7 @@ const Privacy = () => (
     </tr>
   </tbody>
 </Table>
-        </MainContent> 
+        </MainContent> */}
     </Layout> 
 )
 

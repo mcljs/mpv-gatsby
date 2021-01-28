@@ -107,7 +107,4 @@ font-family: "Ubuntu", sans-serif;
 }
 `
 
-export const ImgIcon = styled.img`
-background: url("../../images/ven-vamos-juntos.jpg")
 
-`

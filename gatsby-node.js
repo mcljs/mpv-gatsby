@@ -6,6 +6,8 @@ const { GraphQLJSONObject } = require("graphql-type-json")
 
 // To add the slug flied to each post
 
+
+
 exports.onCreateNode = ({ node, getNode, actions }) => {
   const { createNodeField } = actions
   // Ensures we are processing only markdown files
@@ -44,7 +46,7 @@ exports.createPages = ({graphql,actions}) => {
             description
             title
             image{
-              id
+              publicURL
             }
           }
           timeToRead
