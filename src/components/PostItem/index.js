@@ -5,8 +5,6 @@ import * as S from './styled'
 
 const PostItem = ({
     slug,
-    background,
-    category,
     date,
     timeToRead,
     title,
@@ -15,7 +13,7 @@ const PostItem = ({
         <div className="font">
     <S.PostItemLink  to={slug}>
         <S.PostItemWrapper>
-<S.PostItemTag background={background}>{category}</S.PostItemTag>
+
             <S.PostItemInfo>
                 <S.PostItemDate>{date} • {timeToRead} minuto de lectura</S.PostItemDate>
                 <S.PostItemTitle>{title}</S.PostItemTitle>

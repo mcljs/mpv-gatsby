@@ -4,7 +4,10 @@ title: Venezuela registra 689 casos comunitarios, 98 importados y suma 56.726 re
 description: 
 category: Relevante
 background: "red"
+img: '/assets/img/img-1.png'
 timeToRead: 2 minutos de lectura
+
+
 ---
 
 Un total de 787 nuevos casos de COVID-19 fueron detectados en las últimas 24 horas por las autoridades sanitarias venezolanas, de los cuales 689 son de transmisión comunitaria y 98 casos de transmisión fronteriza.

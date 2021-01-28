@@ -1,6 +1,6 @@
 import React from 'react';
 import Layout from '../components/layout';
-import SEO from '../components/seo';
+import SEO from '../components/Seo';
 import '../../src/components/layout.css';
 import { MainContent } from '../components/styles/base';
 import 'bootstrap/dist/css/bootstrap.min.css';

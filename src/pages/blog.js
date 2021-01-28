@@ -3,7 +3,7 @@ import {useStaticQuery,graphql} from 'gatsby'
 import Layout from '../components/layout';
 import '../../src/components/layout.css';
 import PostItem from '../components/PostItem';
-import SEO from "../components/seo"
+import SEO from "../components/Seo"
 
 
 
@@ -41,9 +41,9 @@ const Blog = props =>  {
   const postList = allMarkdownRemark.edges
 
 return(
-    <Layout>
+    <Layout className="animate__animated animate__fadeIn" >
 <SEO title="Blog" />
-        <h1 className="blog">blog</h1>
+      <h1 className="blog animate__animated animate__fadeIn" style={{fontSize: '4.1rem'}} >Noticias</h1>
        
         {postList.map(
         ({

@@ -3,8 +3,7 @@ module.exports = {
     title: `Movimiento Por la paz y la vida`,
     description: `Movimiento Por La Paz y la Vida`,
     author: `@mcljs` ,
-    image: '/src/images/mpv-logo.png',
-    siteUrl: `https://movimiento-porla-paz-y-lavida.netlify.app/`
+    siteUrl: `https://movimiento-porla-paz-y-lavida.netlify.app`
   },
   plugins: [
     {
@@ -18,6 +17,7 @@ module.exports = {
     `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-styled-components`,
+    `gatsby-plugin-social-cards`,
     // nned to be  the first to work with gatsby-remark-images
     {
       resolve: `gatsby-source-filesystem`,

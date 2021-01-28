@@ -42,7 +42,7 @@ export default function NavBar() {
                         <NavLinks to="/">Inicio</NavLinks>
                     </NavItem>
                     <NavItem>
-                        <NavLinks to="/blog">Blog</NavLinks>
+                        <NavLinks className="animate__animated animate__fadeIn" to="/blog">Noticias</NavLinks>
                     </NavItem>
                     <NavItem>
                         <NavLinks to="/gbmp">Grandes Bases</NavLinks>

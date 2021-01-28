@@ -10,6 +10,8 @@ import PropTypes from "prop-types"
 import Helmet from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
 
+
+
 function SEO({ description, lang, meta,image, title }) {
   const { site } = useStaticQuery(
     graphql`
@@ -18,7 +20,6 @@ function SEO({ description, lang, meta,image, title }) {
           siteMetadata {
             title
             description
-            image
           }
         }
       }
@@ -28,8 +29,11 @@ function SEO({ description, lang, meta,image, title }) {
   const metaDescription = description || site.siteMetadata.description
 
   
-  const url = site.siteMetadata.siteUrl
-  const ogImage = `${url}${image || "/assets/img/mpv-logo.png"}`
+
+  const ogImage = 
+    image || 'https://movimiento-porla-paz-y-lavida.netlify.app/assets/img/mpv-logo.png'
+
+
 
   return (
     <Helmet
@@ -40,47 +44,50 @@ function SEO({ description, lang, meta,image, title }) {
       titleTemplate={`%s | ${site.siteMetadata.title}`}
       meta={[
         {
+          name: `aplication-name`,
+          content: 'Movimiento por la Paz y la Vida'
+        },
+        {
           name: `description`,
-          content: metaDescription,
-        },
-        {
-          property: `og:title`,
-          content: title,
-        },
-        {
-          property: `og:description`,
-          content: metaDescription,
+          content: metaDescription
         },
         {
           property: `og:image`,
-          content: ogImage,
+          content: ogImage
+        },
+        {
+          property: `og:title`,
+          content: title
+        },
+        {
+          property: `og:description`,
+          content: metaDescription
         },
         {
           property: `og:type`,
-          content: `website`,
+          content: `website`
         },
         {
           name: `twitter:card`,
-          content: `summary_large_image`,
+          content: `summary_large_image`
         },
         {
           name: `twitter:image:src`,
-          content: ogImage,
+          content: ogImage
         },
         {
           name: `twitter:creator`,
-          content: site.siteMetadata.author,
+          content: site.siteMetadata.author
         },
         {
           name: `twitter:title`,
-          content: title,
+          content: title
         },
         {
           name: `twitter:description`,
-          content: metaDescription,
-        },
-      ].concat(meta)}
-    />
+          content: metaDescription
+        }
+      ].concat(meta)}    />
   )
 }
 

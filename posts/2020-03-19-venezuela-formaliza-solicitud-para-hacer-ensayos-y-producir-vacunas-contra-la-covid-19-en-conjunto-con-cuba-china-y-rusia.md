@@ -1,8 +1,9 @@
 ---
 date: 2020-09-20 21:21:22
+img: /assets/img/img-4.jpeg
 title: Venezuela formaliza solicitud para hacer ensayos y producir vacunas contra la COVID-19 en conjunto con Cuba, China y Rusia
-
-description: 
+description: La vicepresidenta Ejecutiva de la República Bolivariana de Venezuela, Delcy Rodríguez, informó este domingo 
+twitter_text: La vicepresidenta Ejecutiva de la República Bolivariana de Venezuela, Delcy Rodríguez, informó este domingo 
 category: MSC
 background: "black"
 ---

@@ -44,7 +44,7 @@ exports.createPages = ({graphql,actions}) => {
             description
             title
             image{
-              absolutePath
+              id
             }
           }
           timeToRead

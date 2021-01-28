@@ -7,7 +7,7 @@ import {SocialIconLink} from '../Footer/FooterElements'
 function HeroSection(){
     return(
         <div className="hero-container">
-            <h1>Movimiento Por La Paz y La Vida</h1>
+            <h1>Movimiento Por la Paz y la Vida</h1>
          
             <div className="hero-btns">
             <Button fontBig big primary>

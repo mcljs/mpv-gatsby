@@ -1,6 +1,6 @@
 import React from 'react';
 import Layout from '../components/layout';
-import SEO from '../components/seo';
+import SEO from '../components/Seo';
 import '../../src/components/layout.css'
 import { MainContent } from '../components/styles/base'
 import Chartone from '../components/Charts/chart-one'
@@ -14,7 +14,7 @@ const Estadisticas = () => (
     <Layout>
        
         <SEO title="Estadisticas" />
-        <h1 className="estadisticas">Estadisticas</h1>
+        <h1 className="estadisticas animate__fadeIn">Estadisticas</h1>
         
         <MainContent>
       

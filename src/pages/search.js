@@ -2,7 +2,7 @@ import React from "react"
 import { Link, graphql } from "gatsby"
 import { Index } from "lunr"
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import SEO from "../components/Seo"
 import SearchForm from "../components/search-form"
 import { MainContent } from '../components/styles/base'
 

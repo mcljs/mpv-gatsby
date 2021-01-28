@@ -2,7 +2,7 @@ import React from 'react'
 import { graphql } from 'gatsby'
 
 import Layout from '../components/layout'
-import SEO from '../components/seo'
+import SEO from '../components/Seo'
 import * as S from '../components/styles/base'
 import RecommendedPosts from "../components/RecommendedPosts"
 
@@ -14,8 +14,10 @@ import RecommendedPosts from "../components/RecommendedPosts"
 
      return (
       <Layout>
-      <SEO title={post.frontmatter.title} 
-        image={post.frontmatter.image}/>
+      <SEO title={post.frontmatter.title}
+        description={post.frontmatter.description}
+        //image={post.frontmatter.image}
+        image={`https://movimiento-por-la-paz-y-la-vida.netlify.app${post.frontmatter.image}`}/>
       <S.PostHeader>
         <S.PostDate>
           {post.frontmatter.date} • {post.timeToRead} min de lectura
