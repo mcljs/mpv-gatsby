@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `Movimiento Por la paz y la vida`,
-    description: `Movimiento Por La Paz y la Vida`,
+    title: `Movimiento por la Paz y la Vida`,
+    description: `Movimiento por la Paz y la Vida`,
     author: `@mcljs` ,
-    siteUrl: `https://movimiento-porla-paz-y-lavida.netlify.app`
+    siteUrl: `https://movimientoporlapazylavida.netlify.app`
   },
   plugins: [
     {
@@ -67,8 +67,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Movimiento Por La Paz y la Vida`,
-        short_name: `Movimiento Por La Paz y la Vida`,
+        name: `Movimiento por la Paz y la Vida`,
+        short_name: `Movimiento por la Paz y la Vida`,
         start_url: `/`,
         background_color: `#16202c`,
         theme_color: `#16202c`,
@@ -80,5 +80,6 @@ module.exports = {
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     `gatsby-plugin-offline`,
+    `gatsby-plugin-netlify-cms`,
   ],
 }

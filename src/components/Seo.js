@@ -31,7 +31,7 @@ function SEO({ description, lang, meta,image, title }) {
   
 
   const ogImage = 
-    image || 'https://movimiento-porla-paz-y-lavida.netlify.app/assets/img/mpv-logo.png'
+    image || 'https://movimientoporlapazylavida.netlify.app/assets/img/mpv-logo.png'
 
 
 

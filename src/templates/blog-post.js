@@ -17,7 +17,7 @@ import RecommendedPosts from "../components/RecommendedPosts"
       <SEO title={post.frontmatter.title}
         description={post.frontmatter.description}
         //image={post.frontmatter.image}
-        image={`https://movimiento-por-la-paz-y-la-vida.netlify.app${post.frontmatter.image?.publicURL}`}
+        image={`https://movimientoporlapazylavida.netlify.app${post.frontmatter.image?.publicURL}`}
         />
       <S.PostHeader>
         <S.PostDate>
