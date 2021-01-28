@@ -1,11 +1,15 @@
 ---
+background: red
 date: 2020-09-21 21:21:22
-title: Venezuela registra 689 casos comunitarios, 98 importados y suma 56.726 recuperados
-description: Un total de 787 nuevos casos de COVID-19 fueron detectados en las últimas 24 horas por las autoridades sanitarias venezolanas
+image: /assets/img/img-3.jpeg
+title: Venezuela registra 689 casos comunitarios, 98 importados y suma 56.726
+  recuperados
+description: Un total de 787 nuevos casos de COVID-19 fueron detectados en las
+  últimas 24 horas por las autoridades sanitarias venezolanas
+twitter_text: Un total de 787 nuevos casos de COVID-19 fueron detectados en las
+  últimas 24 horas por las autoridades sanitarias venezolanas
 category: Relevante
-background: "red"
 timeToRead: 2 minutos de lectura
-image: /assets/img/img-1.png
 ---
 
 Un total de 787 nuevos casos de COVID-19 fueron detectados en las últimas 24 horas por las autoridades sanitarias venezolanas, de los cuales 689 son de transmisión comunitaria y 98 casos de transmisión fronteriza.
