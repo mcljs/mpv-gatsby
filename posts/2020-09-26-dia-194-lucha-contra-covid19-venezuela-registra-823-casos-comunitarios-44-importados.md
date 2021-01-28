@@ -5,7 +5,7 @@ title: Día 194 de la lucha contra la COVID-19 Venezuela registra 823 casos
 description: Relevante
 category: Relevante
 background: red
-image: /assets/img/img-1.jpg
+image: /assets/img/mpv-logo.png
 twitter_text: Día 194 de la lucha contra la COVID-19 Venezuela registra 823
   casos comunitarios, 44 importados
 ---
