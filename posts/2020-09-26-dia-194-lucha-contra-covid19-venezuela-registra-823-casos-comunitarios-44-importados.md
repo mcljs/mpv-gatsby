@@ -9,35 +9,34 @@ image: /assets/img/mpv-logo.png
 twitter_text: Día 194 de la lucha contra la COVID-19 Venezuela registra 823
   casos comunitarios, 44 importados
 ---
-
 ![Freddy-Ñanez](/assets/img/img-1.png)
 
 Un total de 823 casos de transmisión comunitaria de COVID-19 y 44 importados fueron detectados en las últimas 24 horas por las autoridades sanitarias venezolanas para elevar la cifra total de contagios a 71.273, de los cuales 60.709 están recuperados satisfactoriamente, lo que equivale al 85 por ciento de los casos.
 
-La información la dio a conocer este viernes el ministro del Poder Popular para la Comunicación y la Información, Freddy Ñáñez, durante un contacto vía videoconferencia con Venezolana de Televisión (VTV), al término de la reunión diaria de la Comisión Presidencial para el Control y la Prevención de la COVID-19. 
+La información la dio a conocer este viernes el ministro del Poder Popular para la Comunicación y la Información, Freddy Ñáñez, durante un contacto vía videoconferencia con Venezolana de Televisión (VTV) al término de la reunión diaria de la Comisión Presidencial para el Control y la Prevención de la COVID-19. 
 
 Sobre los casos de transmisión comunitaria detalló que se concentraron en:
 
-- Distrito Capital: 182 nuevos, concentrándose el mayor número de casos en: Sucre (Catia) con 34, El Valle con 21, Catedral con 19 y 23 de Enero con 11.
-- Zulia: 153 nuevos casos.
-- Táchira: 118 nuevos casos.
-- Miranda: 62 nuevos casos.
-- Bolívar: 61 nuevos casos.
-- La Guaira: 60 nuevos casos.
-- Yaracuy: 53 nuevos casos.
-- Cojedes: 45 nuevos casos.
-- Barinas: 34 nuevos casos.
-- Mérida: 31 nuevos casos.
-- Delta Amacuro: 29 nuevos casos.
-- Lara: 14 nuevos casos.
-- Apure: 8 nuevos casos.
-- Carabobo: 6 nuevos casos.
-- Sucre: 3 nuevos casos.
-- Anzoátegui: 2 nuevos casos.
-- Nva. Esparta: 2 nuevos casos.
-- Amazonas: 1 caso nuevo.
-- Aragua: 1 caso nuevo.
-- Portuguesa: 1  caso nuevo.
+* Distrito Capital: 182 nuevos, concentrándose el mayor número de casos en: Sucre (Catia) con 34, El Valle con 21, Catedral con 19 y 23 de Enero con 11.
+* Zulia: 153 nuevos casos.
+* Táchira: 118 nuevos casos.
+* Miranda: 62 nuevos casos.
+* Bolívar: 61 nuevos casos.
+* La Guaira: 60 nuevos casos.
+* Yaracuy: 53 nuevos casos.
+* Cojedes: 45 nuevos casos.
+* Barinas: 34 nuevos casos.
+* Mérida: 31 nuevos casos.
+* Delta Amacuro: 29 nuevos casos.
+* Lara: 14 nuevos casos.
+* Apure: 8 nuevos casos.
+* Carabobo: 6 nuevos casos.
+* Sucre: 3 nuevos casos.
+* Anzoátegui: 2 nuevos casos.
+* Nva. Esparta: 2 nuevos casos.
+* Amazonas: 1 caso nuevo.
+* Aragua: 1 caso nuevo.
+* Portuguesa: 1  caso nuevo.
 
 En tanto, de los casos importados indicó que 43 son provenientes de Colombia y 1 de Brasil.
 
