@@ -1,27 +1,16 @@
 import React from 'react'
 import { FaFacebook, FaTwitter,FaInstagram } from 'react-icons/fa'
 import {FooterContainer,SocialIcon,SocialIconLink,SocialLogo,SocialMedia,SocialMediaWrap,SocialIcons,WebsiteRights} from './FooterElements'
+import Link from '../link';
+import config from '../../../config/website';
 
-
-const data = [
-    {
-        id: 1,
-        icon: <FaFacebook />,
-        url: "https://www.facebook.com/Movimiento-Por-La-Paz-y-La-Vida-1658143497798479" 
-    },
-    {
-        id: 2,
-        icon: <FaInstagram />,
-        url: "https://www.facebook.com/Movimiento-Por-La-Paz-y-La-Vida-1658143497798479" 
-    },
-    {
-        id: 3,
-        icon: <FaTwitter />,
-        url:"https://twitter.com/DPazYVida3"     },
-]
 
 const Footer = () => {
-    return(
+
+    let url_twitter = `${config.twitter}`
+    let url_facebook = `${config.facebook}`
+
+      return(
         <FooterContainer>
             <SocialMedia>
                 <SocialMediaWrap>
@@ -32,30 +21,27 @@ const Footer = () => {
     <WebsiteRights> Movimiento Por la Paz y la Vida | Dirección Nacional de Estado • {new Date().getFullYear()}  
     </WebsiteRights>
    
-                    {
-                        data.map(link =>(
-                            <SocialIcons key={link.id}>
-                                <SocialIconLink href={link.url}>
-                                    {link.icon}
-                                </SocialIconLink>
-                            </SocialIcons>
-                        ))
-                    }
-                {/*  <SocialIcons>
-            <SocialIconLink href="https://www.facebook.com/Movimiento-Por-La-Paz-y-La-Vida-1658143497798479" target="_blank"
+                 
+                  <SocialIcons>
+                      <Link to={url_facebook}>
+                          <SocialIconLink 
             arial-label="Facebook">
                 <FaFacebook />
             </SocialIconLink>
-            <SocialIconLink href="/" target="_blank"
+                          </Link>
+
+            <SocialIconLink 
             arial-label="Instagram">
                 <FaInstagram />
             </SocialIconLink>
-            <SocialIconLink href="https://twitter.com/DPazYVida3" target="_blank"
+                      <Link to={url_twitter}>
+                          <SocialIconLink 
             arial-label="Twitter">
                 <FaTwitter />
             </SocialIconLink>
-            
-            </SocialIcons>*/}
+            </Link>
+
+            </SocialIcons>
                 </SocialMediaWrap>
             </SocialMedia>
         </FooterContainer>

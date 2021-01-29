@@ -42,7 +42,7 @@ export default function NavBar() {
                         <NavLinks to="/">Inicio</NavLinks>
                     </NavItem>
                     <NavItem>
-                        <NavLinks  to="/blog">Noticias</NavLinks>
+                        <NavLinks to="/blog">Noticias</NavLinks>
                     </NavItem>
                     <NavItem>
                         <NavLinks to="/gbmp">Grandes Bases</NavLinks>
