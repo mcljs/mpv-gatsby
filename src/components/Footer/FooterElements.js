@@ -65,7 +65,7 @@ align-items: center;
 width: 240px;
 `
 
-export const SocialIconLink = styled.a`
+export const SocialIconLink = styled(Link)`
 color: #fff;
 font-size: 24px;
 `
