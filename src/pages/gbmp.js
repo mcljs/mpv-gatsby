@@ -21,17 +21,17 @@ const Privacy = () => (
         content="
           <p><strong>Grande Base:</strong> EL Valle</p>
           <p><strong>Direccion Exacta:</strong> Municipio Libertador, Parroquia El Valle, Avenida Intercomunal de el Valle</p>
-          <p><strong>Coordenadas UTM:</strong> <a href='https://n9.cl/4bo9' target='_blank'> 0°28'23.90N 66°53'55.24W </a></p>
+          <p><strong>Coordenadas UTM:</strong> <a href='https://n9.cl/4bo9' target='_blank' rel='noreferrer'> 0°28'23.90N 66°53'55.24W </a></p>
         </br>
 
           <p><strong>Grande Base:</strong> Pinto Salinas</p>
           <p><strong>Direccion Exacta:</strong> Municipio Libertador, Parroquia Antonio Pinto Salinas, Calle Real Simón Rodríguez,  Bloque 7 y 8 </p>
-          <p><strong>Coordenadas UTM:</strong> <a href='https://n9.cl/4bo9' target='_blank'>10°30'40.22N 66°53'25.13W</a> </p>
+          <p><strong>Coordenadas UTM:</strong> <a href='https://n9.cl/4bo9' target='_blank' rel='noreferrer'>10°30'40.22N 66°53'25.13W</a> </p>
         </br>
 
         <p><strong>Grande Base:</strong> Quinta Crespo</p>
           <p><strong>Direccion Exacta:</strong> Municipio Libertador, Parroquia Santa Teresa,Av Sur 4, Con Pasaje Miranda y Calle 300, de Quinta Crespo</p>
-          <p><strong>Coordenadas UTM:</strong> <a href='https://n9.cl/4bo9' target='_blank'> 10°29'38.79N 66°55'6.73W </a></p>
+          <p><strong>Coordenadas UTM:</strong> <a href='https://n9.cl/4bo9' target='_blank' rel='noreferrer'> 10°29'38.79N 66°55'6.73W </a></p>
         </br>
           
       "/>
@@ -41,7 +41,7 @@ const Privacy = () => (
          <p><strong>Grande Base:</strong> Mare Bajo</p>
           <p><strong>Direccion Exacta:</strong> Municipio Vargas, Parroquia Urimare AV. Bicentenario con calle José María Vargas. Detrás del Aeropuerto de Maiquetía
 /p>
-          <p><strong>Coordenadas UTM:</strong> <a href='https://n9.cl/xr2ki' target='_blank'> 10°36'23.99N 66°58'36.94W </a></p>
+          <p><strong>Coordenadas UTM:</strong> <a href='https://n9.cl/xr2ki' target='_blank' rel='noreferrer'> 10°36'23.99N 66°58'36.94W </a></p>
         </br>
 
 
@@ -51,7 +51,7 @@ const Privacy = () => (
         content="
         <p><strong>Grande Base:</strong> Ocumare</p>
           <p><strong>Direccion Exacta:</strong> Municipio Tomás Lander, Parroquia Ocumare del Tuy.Entrada a Ocumare, al Lado de Macdonald's </p>
-          <p><strong>Coordenadas UTM:</strong> <a href='https://n9.cl/xr2ki' target='_blank'> 10°7'39.59N 66°46'34.63W </a></p>
+          <p><strong>Coordenadas UTM:</strong> <a href='https://n9.cl/xr2ki' target='_blank' rel='noreferrer'> 10°7'39.59N 66°46'34.63W </a></p>
         </br>
 
         "/>

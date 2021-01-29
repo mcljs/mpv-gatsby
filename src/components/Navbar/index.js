@@ -32,7 +32,7 @@ export default function NavBar() {
             <NavbarContainer>
                 <NavLogo to="/">
                     <NavIcon/>
-                    <img src={logo} width='100' height='70' alt={logo}/>
+                    <img src={logo} width='100px' height='70px' alt={logo}/>
                 </NavLogo>
                 <MobileIcon onClick={handleClick}>
                     {click? <FaTimes/> : <FaBars />}
