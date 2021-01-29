@@ -67,5 +67,6 @@ width: 240px;
 
 export const SocialIconLink = styled.a`
 color: #fff;
-font-size: 24px;
+font-size: 20px;
+align-items: center
 `
