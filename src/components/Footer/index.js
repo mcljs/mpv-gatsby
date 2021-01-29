@@ -1,6 +1,6 @@
 import React from 'react'
 import { FaFacebook, FaTwitter,FaInstagram } from 'react-icons/fa'
-import {FooterContainer,SocialIcon,SocialIconLink,SocialLogo,SocialMedia,SocialMediaWrap,SocialIcons,WebsiteRights} from './FooterElements'
+import {FooterContainer,SocialIcon,SocialLogo,SocialMedia,SocialMediaWrap,SocialIcons,WebsiteRights} from './FooterElements'
 import Link from '../link';
 import config from '../../../config/website';
 
@@ -23,22 +23,16 @@ const Footer = () => {
    
                  
                   <SocialIcons>
-                      <Link to={url_facebook}>
-                          <SocialIconLink 
-            arial-label="Facebook">
-                <FaFacebook />
-            </SocialIconLink>
+                      <Link to={url_facebook} arial-label="Facebook">
+                          <FaFacebook style={{color: '#fff' ,fontSize: '20px'}}/> 
                           </Link>
 
-            <SocialIconLink 
-            arial-label="Instagram">
-                <FaInstagram />
-            </SocialIconLink>
-                      <Link to={url_twitter}>
-                          <SocialIconLink 
-            arial-label="Twitter">
-                <FaTwitter />
-            </SocialIconLink>
+            <Link to={url_facebook} arial-label="Instagram">
+                <FaInstagram style={{color: '#fff' ,fontSize: '20px'}} />
+            </Link>
+
+                      <Link to={url_twitter}  arial-label="Twitter">
+           <FaTwitter style={{color: '#fff' ,fontSize: '20px'}} /> 
             </Link>
 
             </SocialIcons>
