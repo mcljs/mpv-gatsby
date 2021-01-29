@@ -31,7 +31,7 @@ function SEO({ description, lang, meta,image, title }) {
   
 
   const ogImage = 
-    image || 'https://movimientoporlapazylavida.netlify.app/assets/img/mpv-logo.png'
+    image || 'https://movimientoporlapazylavida.netlify.app/static/2aa81ea712d17d36b22b3f8e2a8af53a/mpv-logo.png'
 
 
 
