@@ -8,7 +8,7 @@ const Nosotros = () => (
     <Layout>
        
         <SEO title="Nosotros" />
-        <h1 className="nosotros">Nosotros</h1>
+        <h1 className="nosotros" style={{fontSize: '4.2rem'}}>Nosotros</h1>
         
         <MainContent>
         <h1>Fundacion Movimiento Por La Paz Y La Vida</h1>

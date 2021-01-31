@@ -18,7 +18,7 @@ const Footer = () => {
                             <SocialIcon />
          
                     </SocialLogo>
-    <WebsiteRights> Movimiento Por la Paz y la Vida | Dirección Nacional de Estado • {new Date().getFullYear()}  
+    <WebsiteRights> Movimiento Por la Paz y la Vida | Dirección Nacional de Regiones,Seguimiento,Control y Evaluación de la Gestión • {new Date().getFullYear()}  
     </WebsiteRights>
    
                  

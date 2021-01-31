@@ -43,7 +43,7 @@ const Blog = props =>  {
 return(
     <Layout className="animate__animated animate__fadeIn" >
 <SEO title="Blog" />
-      <h1 className="blog animate__animated animate__fadeIn" style={{fontSize: '4.1rem'}} >Noticias</h1>
+      <h1 className="blog animate__animated animate__fadeIn" style={{fontSize: '4.2rem'}} >Noticias</h1>
        
         {postList.map(
         ({

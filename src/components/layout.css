@@ -53,6 +53,22 @@
 
 
 .blog{
+    background: url("../images/img-1.jpeg") center center/cover no-repeat;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0, 0.6);
+    object-fit: contain;
+    margin-top: -80px;
+    color: #fff
+
+}
+
+
+.programas{
     background: url("../images/img-7.jpeg") center center/cover no-repeat;
     height: 100vh;
     width: 100%;
@@ -66,3 +82,7 @@
     color: #fff
 
 }
+
+
+
+
