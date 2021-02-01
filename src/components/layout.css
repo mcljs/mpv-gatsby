@@ -48,7 +48,10 @@
     box-shadow: inset 0 0 0 1000px rgba(0,0,0, 0.8);
     object-fit: contain;
     margin-top: -80px;
-    color: #fff
+    color: #fff;
+    @media screen and (max-width:960px){
+      text-align: center;
+    }
 }
 
 
