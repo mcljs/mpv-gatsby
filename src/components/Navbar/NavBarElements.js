@@ -96,7 +96,7 @@ font-family: "Ubuntu", sans-serif;
 
 @media screen and (max-width: 960px){
     text-align: center;
-    padding: 2rem;
+    padding: 1rem;
     width: 100%;
     display: table;
 
