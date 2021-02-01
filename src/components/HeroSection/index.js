@@ -10,7 +10,7 @@ function HeroSection(){
    let url_twitter = `${config.twitter}`
     return(
         <div className="hero-container">
-            <h1>Movimiento Por la Paz y la Vida</h1>
+            <h1>Movimiento por la Paz y la Vida</h1>
          
             <div className="hero-btns">
                 <Link to={url_twitter}>

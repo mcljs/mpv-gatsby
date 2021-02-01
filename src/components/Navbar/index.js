@@ -53,6 +53,9 @@ export default function NavBar() {
                     <NavItem>
                         <NavLinks to="/programas">Programas</NavLinks>
                     </NavItem>
+                     <NavItem>
+                        <NavLinks to="/eda">Ejes de Acción</NavLinks>
+                    </NavItem>
                     <NavItem>
                         <NavLinks to="/estadisticas">Estadisticas</NavLinks>
                     </NavItem>
