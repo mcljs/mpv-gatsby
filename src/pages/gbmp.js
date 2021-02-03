@@ -10,7 +10,7 @@ const Privacy = () => (
     <Layout>
        
         <SEO title="Grandes Bases de Misiones de Paz" />
-        <h1 className="privacy" style={{fontSize: '4.2rem'}}>Grandes Bases</h1>
+      <h1 className="privacy" style={{fontSize: '4.2rem',textAlign: 'center'}}>Grandes Bases</h1>
       <MainContent>
   <p>Para saber de nuestra ubicación especifica ingresa al Link que se encuentra en <strong>"COORDENADAS UTM"</strong> de la Base de tu preferencia.</p>
       </MainContent>

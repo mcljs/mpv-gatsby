@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import logo from '../../images/mpv-logo.png'
+import logo from '../../images/mpv-logo.webp'
 import {FaBars,FaTimes} from 'react-icons/fa';
 import {IconContext} from 'react-icons/lib';
 import {Nav,NavbarContainer,NavLogo,NavIcon,MobileIcon,NavMenu,NavItem,NavLinks} from "./NavBarElements"
@@ -55,6 +55,9 @@ export default function NavBar() {
                     </NavItem>
                   <NavItem>
                         <NavLinks to="/eda">Ejes de Acción</NavLinks>
+                    </NavItem>
+                    <NavItem>
+                        <NavLinks to="/eda">Biblioteca Digital</NavLinks>
                     </NavItem>
                     <NavItem>
                         <NavLinks to="/estadisticas">Estadisticas</NavLinks>

@@ -39,7 +39,12 @@ align-items: center;
 `
 
 export const NavIcon = styled(DiScala)`
-margin: 0 0.5rem 0 2rem;
+margin: 0 0.5rem 0 -3.3rem;
+
+@media screen and (max-width: 960px){
+margin: 0 0.5rem 0 1rem;
+
+    }
 `
 
 export const MobileIcon = styled.div`
@@ -52,7 +57,7 @@ export const MobileIcon = styled.div`
      right: 0;
      transform: translate(-100%, 60%);
      font-size: 1.8rem;
-     cursor: pointer
+     cursor: pointer;
  }
 `
 
@@ -61,7 +66,7 @@ display: flex;
 align-items: center;
 list-style: none;
 text-align: center;
-
+margin-right: -70px;
 
 
 @media screen and (max-width: 960px) {
@@ -73,7 +78,8 @@ text-align: center;
     top: ${({click}) => (click ? "100%": "-1000px")};
     opacity: 1;
     transition: all 0.2s ease;
-    background: #fff
+    background: #fff;
+    overflow-y: scroll
 }
 `
 
@@ -93,6 +99,8 @@ text-decoration:none;
 padding: 0.5rem 1rem;
 height: 100%;
 font-family: "Ubuntu", sans-serif;
+
+
 
 @media screen and (max-width: 960px){
     text-align: center;
