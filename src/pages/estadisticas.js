@@ -14,7 +14,7 @@ const Estadisticas = () => (
     <Layout>
        
         <SEO title="Estadisticas" />
-        <h1 className="estadisticas animate__fadeIn" style={{fontSize: '4.2rem'}}>Estadisticas</h1>
+        <h1 className="estadisticas animate__fadeIn" style={{fontSize: '3.4rem'}}>Estadisticas</h1>
         
         <MainContent>
       
