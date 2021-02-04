@@ -53,11 +53,12 @@ export default function NavBar() {
                     <NavIcon/>
                     <img src={logo} alt={logo}
                          css={`
-                          width: 100px;
-                          height: 70px;
+                         width: 200%;
+                         height: 5rem;
+                        @media screen and (max-width: 920px){
+                          width: 18%;
                           }
-                          }
-                          `}
+                        `}
                     />
                 </NavLogo>
                 <MobileIcon onClick={handleClick}>
@@ -91,7 +92,7 @@ export default function NavBar() {
                         <NavLinks to="/estadisticas">Estadisticas</NavLinks>
                     </NavItem>*/}
                     <NavItem>
-                        <NavLinks to="/search/"><FaSearch/></NavLinks>
+                        <NavLinks to="/search"><FaSearch/></NavLinks>
                     </NavItem>
                         <NavLinksReponsive to="/gbmp">
                             Grandes Bases
