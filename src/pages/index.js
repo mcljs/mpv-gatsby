@@ -14,7 +14,6 @@ const IndexPage = () => {
     <SEO title="Inicio" />
     <HeroSection />
     <h1> </h1>
-    <h1> </h1>
     <Image />
     <h1> </h1> 
   </Layout>
