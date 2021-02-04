@@ -104,7 +104,7 @@ export default function NavBar() {
                           >
                             Estadisticas
                         </NavLinksReponsive>
-                    <NavLinksReponsive >
+                    <NavLinksReponsive to="/">
 
                     </NavLinksReponsive>
                      </NavMenu> 
