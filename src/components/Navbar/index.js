@@ -98,15 +98,13 @@ export default function NavBar() {
                       <NavLinksReponsive to="/estadisticas"
                           css={`
                           @media screen and (max-width: 960px){
-                          border-bottom: 1px solid #e41e25;
-                          }
+                         padding-bottom: 30px;
+                         }
                           `}
                           >
                             Estadisticas
                         </NavLinksReponsive>
-                    <NavLinksReponsive to="/">
-
-                    </NavLinksReponsive>
+                   
                      </NavMenu> 
             </NavbarContainer>
 
