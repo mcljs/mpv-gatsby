@@ -51,7 +51,16 @@ export default function NavBar() {
             <NavbarContainer>
                 <NavLogo to="/">
                     <NavIcon/>
-                    <img src={logo} width='100px' height='70px' alt={logo}/>
+                    <img src={logo} alt={logo}
+                         css={`
+                          width: 120%;
+
+                          @media screen and (max-width: 920px){
+                          width: 18%;
+                          }
+                          }
+                          `}
+                    />
                 </NavLogo>
                 <MobileIcon onClick={handleClick}>
                     {click? <FaTimes/> : <FaBars />}
