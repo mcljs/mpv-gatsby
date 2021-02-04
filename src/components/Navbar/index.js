@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react'
-import logo from '../../images/mpv-logo.webp'
+import logo from '../../images/mpv-logo.png'
 import {FaBars,FaTimes} from 'react-icons/fa';
 import {IconContext} from 'react-icons/lib';
-import {Nav,NavbarContainer,NavLogo,NavIcon,MobileIcon,NavMenu,NavItem,NavLinks} from "./NavBarElements"
+import {Nav,NavbarContainer,NavLogo,NavIcon,MobileIcon,NavMenu,NavItem,NavLinks,NavSecondary,NavMenuSecondary,NavLinkSecondary,NavLinksReponsive} from "./NavBarElements"
 import { FaSearch } from 'react-icons/fa'
 
 export default function NavBar() {
@@ -27,7 +27,26 @@ export default function NavBar() {
     }, [])
     return (
         <>
+
             <IconContext.Provider value={{color: "#141414"}}>
+   <NavSecondary active={scroll} click={click}> 
+                        <NavbarContainer>
+                          <NavMenuSecondary>
+                              <NavLinkSecondary to='/gbmp' active={scroll} activeStyle>
+                                  Grandes Bases
+                              </NavLinkSecondary>
+                           <NavLinkSecondary to="/eda" active={scroll}>
+                                 Ejes de Acción
+                              </NavLinkSecondary>
+                             <NavLinkSecondary to="/biblioteca" active={scroll}>
+                                Biblioteca Digital
+                              </NavLinkSecondary>
+                                 <NavLinkSecondary to="/estadisticas" active={scroll}>
+                                  Estadisticas
+                              </NavLinkSecondary>
+                          </NavMenuSecondary>
+                        </NavbarContainer>
+                    </NavSecondary>
                 <Nav active={scroll} click={click}>
             <NavbarContainer>
                 <NavLogo to="/">
@@ -45,30 +64,47 @@ export default function NavBar() {
                         <NavLinks to="/blog">Noticias</NavLinks>
                     </NavItem>
                     <NavItem>
-                        <NavLinks to="/gbmp">Grandes Bases</NavLinks>
+                        <NavLinks to="/programas">Programas</NavLinks>
                     </NavItem>
                     <NavItem>
                         <NavLinks to="/nosotros">Nosotros</NavLinks>
                     </NavItem>
-                    <NavItem>
-                        <NavLinks to="/programas">Programas</NavLinks>
+                    {/*<NavItem>
+                                   <NavLinks to="/programas">Programas</NavLinks>
                     </NavItem>
                   <NavItem>
                         <NavLinks to="/eda">Ejes de Acción</NavLinks>
                     </NavItem>
-                    <NavItem>
-                        <NavLinks to="/eda">Biblioteca Digital</NavLinks>
+  <NavItem>
+            <NavLinks to="/eda">Biblioteca Digital</NavLinks>
                     </NavItem>
+
+
                     <NavItem>
                         <NavLinks to="/estadisticas">Estadisticas</NavLinks>
-                    </NavItem>
+                    </NavItem>*/}
                     <NavItem>
                         <NavLinks to="/search/"><FaSearch/></NavLinks>
                     </NavItem>
-                     </NavMenu>
+                        <NavLinksReponsive to="/gbmp">
+                            Grandes Bases
+                        </NavLinksReponsive>
+                          <NavLinksReponsive to="/eda">
+                            Ejes de Acción
+                        </NavLinksReponsive>
+                        <NavLinksReponsive to="/biblioteca">
+                            Biblioteca Digital
+                        </NavLinksReponsive>
+                      <NavLinksReponsive to="/estadisticas">
+                            Estadisticas
+                        </NavLinksReponsive>
+                     </NavMenu> 
             </NavbarContainer>
+
                 </Nav>
+             
             </IconContext.Provider>
-        </>
+    
+                </>
     )
 }
