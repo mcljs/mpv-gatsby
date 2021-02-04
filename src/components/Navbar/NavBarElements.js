@@ -186,7 +186,9 @@ export const NavLinksReponsive = styled(Link)`
 
 @media screen and (max-width: 960px){
     font-family: "Ubuntu", sans-serif;
-    color: #141414;
+    color: #fff;
+    background-color: #e41e25;
+    border-bottom: 1px solid #fff;
     text-align: center;
     visibility: visible;
     width: 100%;
@@ -194,7 +196,7 @@ export const NavLinksReponsive = styled(Link)`
     display: table;
     font-size: 1rem;
     &:hover {
-        color: #ff4040;
+        color: #fff;
         transition: all 0.3s ease;
     }
 }

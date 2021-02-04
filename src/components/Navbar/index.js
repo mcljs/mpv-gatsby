@@ -95,9 +95,18 @@ export default function NavBar() {
                         <NavLinksReponsive to="/biblioteca">
                             Biblioteca Digital
                         </NavLinksReponsive>
-                      <NavLinksReponsive to="/estadisticas">
+                      <NavLinksReponsive to="/estadisticas"
+                          css={`
+                          @media screen and (max-width: 960px){
+                          border-bottom: 1px solid #e41e25;
+                          }
+                          `}
+                          >
                             Estadisticas
                         </NavLinksReponsive>
+                    <NavLinksReponsive >
+
+                    </NavLinksReponsive>
                      </NavMenu> 
             </NavbarContainer>
 

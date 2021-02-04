@@ -1,15 +1,16 @@
 import React from 'react'
 import { graphql } from 'gatsby'
-
 import Layout from '../components/layout'
 import SEO from '../components/Seo'
 import * as S from '../components/styles/base'
 import RecommendedPosts from "../components/RecommendedPosts"
+import Share from '../components/Share'
 
- const BlogPost = ({ data,pageContext}) => {
+ const BlogPost = ({ data,pageContext,title,twitterHandle}) => {
   const post = data.markdownRemark
   const next = pageContext.nextPost
   const previous = pageContext.previousPost
+
 
 
      return (
@@ -28,6 +29,11 @@ import RecommendedPosts from "../components/RecommendedPosts"
       </S.PostHeader>
       <S.MainContent>
         <div dangerouslySetInnerHTML={{ __html: post.html }}></div>
+        <Share
+          url={`https://movimientoporlapazylavida.netlify.app${post.fields.slug}`}
+title={title}
+      twitterHandle={twitterHandle}
+        />
       </S.MainContent>
       <RecommendedPosts next={next} previous={previous} />
          </Layout>
