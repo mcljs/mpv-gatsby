@@ -32,7 +32,7 @@ export default function NavBar() {
    <NavSecondary active={scroll} click={click}> 
                         <NavbarContainer>
                           <NavMenuSecondary>
-                              <NavLinkSecondary to='/gbmp' active={scroll} activeStyle>
+                              <NavLinkSecondary to='/gbmp' active={scroll} >
                                   Grandes Bases
                               </NavLinkSecondary>
                            <NavLinkSecondary to="/eda" active={scroll}>
