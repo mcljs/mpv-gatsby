@@ -5,6 +5,9 @@ module.exports = {
     author: `@mcljs` ,
     siteUrl: `https://movimientoporlapazylavida.netlify.app`
   },
+  flags:{
+    DEV_SSR: true
+  },
   plugins: [
     {
       resolve: `gatsby-plugin-google-analytics`,
