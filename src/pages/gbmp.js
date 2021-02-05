@@ -10,6 +10,11 @@ import {
   dataBasePazAnzoategui,
   dataBasePazAragua,
   dataBasePazCarabobo,
+  dataBasePazDistritoCapital,
+  dataBasePazFalcon,
+  dataBasePazMerida,
+  dataBasePazMiranda,
+  dataBasePazMonagas,
   } from '../data/basedepaz'
 const Privacy = () => {
 
@@ -127,6 +132,170 @@ const Privacy = () => {
           />
         ) )
       }
+
+
+
+{
+        dataBasePazDistritoCapital.map( base => (
+          <Accordion key={base.id} title={base.title}
+            content={
+              `<p><strong>${base.base}</strong></p>
+            <p><strong>Dirección: </strong>${base.direccion}</p>
+            <p><strong>Coordenadas: </strong><a href='${base.href}'  target='_blank' rel='noreferrer'>${base.coordenadas}</a></p>
+            <p><strong>Servicios que ofrecen: </strong>${base.estructura}.</p>
+            <p><strong>Coordinador(a): </strong>${base.coordinador}.</p>
+            </br>
+
+      <p><strong>${base.base2}</strong></p>
+        <p><strong>Dirección: </strong>${base.direccion2}</p>
+            <p><strong>Coordenadas: </strong><a href='${base.href2}'  target='_blank' rel='noreferrer'>${base.coordenadas2}</a></p>
+            <p><strong>Servicios que ofrecen: </strong>${base.estructura2}.</p>
+            <p><strong>Coordinador(a): </strong>${base.coordinador2}.</p>
+        </br>
+
+      <p><strong>${base.base3}</strong></p>
+        <p><strong>Dirección: </strong>${base.direccion3}</p>
+            <p><strong>Coordenadas: </strong><a href='${base.href3}'  target='_blank' rel='noreferrer'>${base.coordenadas3}</a></p>
+            <p><strong>Servicios que ofrecen: </strong>${base.estructura3}.</p>
+            <p><strong>Coordinador(a): </strong>${base.coordinador3}.</p>
+        </br>
+
+    <p><strong>${base.base4}</strong></p>
+        <p><strong>Dirección: </strong>${base.direccion4}</p>
+            <p><strong>Coordenadas: </strong><a href='${base.href4}'  target='_blank' rel='noreferrer'>${base.coordenadas4}</a></p>
+            <p><strong>Servicios que ofrecen: </strong>${base.estructura4}.</p>
+            <p><strong>Coordinador(a): </strong>${base.coordinador4}.</p>
+        </br>
+
+    <p><strong>${base.base5}</strong></p>
+        <p><strong>Dirección: </strong>${base.direccion5}</p>
+            <p><strong>Coordenadas: </strong><a href='${base.href5}'  target='_blank' rel='noreferrer'>${base.coordenadas5}</a></p>
+            <p><strong>Servicios que ofrecen: </strong>${base.estructura5}.</p>
+            <p><strong>Coordinador(a): </strong>${base.coordinador5}.</p>
+        </br>
+
+            `}
+          />
+        ) )
+      }
+
+    {
+        dataBasePazFalcon.map( base => (
+          <Accordion key={base.id} title={base.title}
+            content={
+              `<p><strong>${base.base}</strong></p>
+            <p><strong>Dirección: </strong>${base.direccion}</p>
+            <p><strong>Coordenadas: </strong><a href='${base.href}'  target='_blank' rel='noreferrer'>${base.coordenadas}</a></p>
+            <p><strong>Servicios que ofrecen: </strong>${base.estructura}.</p>
+            <p><strong>Coordinador(a): </strong>${base.coordinador}.</p>
+            </br>
+
+               `}
+          />
+        ) )
+      }
+
+
+{
+        dataBasePazMerida.map( base => (
+          <Accordion key={base.id} title={base.title}
+            content={
+              `<p><strong>${base.base}</strong></p>
+            <p><strong>Dirección: </strong>${base.direccion}</p>
+            <p><strong>Coordenadas: </strong><a href='${base.href}'  target='_blank' rel='noreferrer'>${base.coordenadas}</a></p>
+            <p><strong>Servicios que ofrecen: </strong>${base.estructura}.</p>
+            <p><strong>Coordinador(a): </strong>${base.coordinador}.</p>
+            </br>
+
+      <p><strong>${base.base2}</strong></p>
+        <p><strong>Dirección: </strong>${base.direccion2}</p>
+            <p><strong>Coordenadas: </strong><a href='${base.href2}'  target='_blank' rel='noreferrer'>${base.coordenadas2}</a></p>
+            <p><strong>Servicios que ofrecen: </strong>${base.estructura2}.</p>
+            <p><strong>Coordinador(a): </strong>${base.coordinador2}.</p>
+        </br>
+
+      <p><strong>${base.base3}</strong></p>
+        <p><strong>Dirección: </strong>${base.direccion3}</p>
+            <p><strong>Coordenadas: </strong><a href='${base.href3}'  target='_blank' rel='noreferrer'>${base.coordenadas3}</a></p>
+            <p><strong>Servicios que ofrecen: </strong>${base.estructura3}.</p>
+            <p><strong>Coordinador(a): </strong>${base.coordinador3}.</p>
+        </br>
+            `}
+          />
+        ) )
+      }
+
+
+
+   {
+        dataBasePazMiranda.map( base => (
+          <Accordion key={base.id} title={base.title}
+            content={
+              `<p><strong>${base.base}</strong></p>
+            <p><strong>Dirección: </strong>${base.direccion}</p>
+            <p><strong>Coordenadas: </strong><a href='${base.href}'  target='_blank' rel='noreferrer'>${base.coordenadas}</a></p>
+            <p><strong>Servicios que ofrecen: </strong>${base.estructura}.</p>
+            <p><strong>Coordinador(a): </strong>${base.coordinador}.</p>
+            </br>
+
+      <p><strong>${base.base2}</strong></p>
+        <p><strong>Dirección: </strong>${base.direccion2}</p>
+            <p><strong>Coordenadas: </strong><a href='${base.href2}'  target='_blank' rel='noreferrer'>${base.coordenadas2}</a></p>
+            <p><strong>Servicios que ofrecen: </strong>${base.estructura2}.</p>
+            <p><strong>Coordinador(a): </strong>${base.coordinador2}.</p>
+        </br>
+
+      <p><strong>${base.base3}</strong></p>
+        <p><strong>Dirección: </strong>${base.direccion3}</p>
+            <p><strong>Coordenadas: </strong><a href='${base.href3}'  target='_blank' rel='noreferrer'>${base.coordenadas3}</a></p>
+            <p><strong>Servicios que ofrecen: </strong>${base.estructura3}.</p>
+            <p><strong>Coordinador(a): </strong>${base.coordinador3}.</p>
+        </br>
+
+    <p><strong>${base.base4}</strong></p>
+        <p><strong>Dirección: </strong>${base.direccion4}</p>
+            <p><strong>Coordenadas: </strong><a href='${base.href4}'  target='_blank' rel='noreferrer'>${base.coordenadas4}</a></p>
+            <p><strong>Servicios que ofrecen: </strong>${base.estructura4}.</p>
+            <p><strong>Coordinador(a): </strong>${base.coordinador4}.</p>
+        </br>
+             `}
+          />
+        ) )
+      }
+
+{
+        dataBasePazMonagas.map( base => (
+          <Accordion key={base.id} title={base.title}
+            content={
+              `<p><strong>${base.base}</strong></p>
+            <p><strong>Dirección: </strong>${base.direccion}</p>
+            <p><strong>Coordenadas: </strong><a href='${base.href}'  target='_blank' rel='noreferrer'>${base.coordenadas}</a></p>
+            <p><strong>Servicios que ofrecen: </strong>${base.estructura}.</p>
+            <p><strong>Coordinador(a): </strong>${base.coordinador}.</p>
+            </br>
+
+      <p><strong>${base.base2}</strong></p>
+        <p><strong>Dirección: </strong>${base.direccion2}</p>
+            <p><strong>Coordenadas: </strong><a href='${base.href2}'  target='_blank' rel='noreferrer'>${base.coordenadas2}</a></p>
+            <p><strong>Servicios que ofrecen: </strong>${base.estructura2}.</p>
+            <p><strong>Coordinador(a): </strong>${base.coordinador2}.</p>
+        </br>
+
+      <p><strong>${base.base3}</strong></p>
+        <p><strong>Dirección: </strong>${base.direccion3}</p>
+            <p><strong>Coordenadas: </strong><a href='${base.href3}'  target='_blank' rel='noreferrer'>${base.coordenadas3}</a></p>
+            <p><strong>Servicios que ofrecen: </strong>${base.estructura3}.</p>
+            <p><strong>Coordinador(a): </strong>${base.coordinador3}.</p>
+        </br>
+            `}
+          />
+        ) )
+      }
+
+
+
+
+
     </Layout> 
         
 )
