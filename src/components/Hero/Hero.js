@@ -9,7 +9,6 @@ const HeroSection = styled.section`
   max-height: 1100px;
   position: relative;
   overflow: hidden;
-
 `;
 
 const HeroWrapper = styled.div`
@@ -20,7 +19,6 @@ const HeroWrapper = styled.div`
   align-items: center;
   overflow: hidden;
   position: relative;
-
 `;
 
 const HeroSlide = styled.div`
@@ -60,7 +58,6 @@ left: 0;
 width: 100vw;
 height: 100vh;
 object-fit: cover;
-
 `;
 
 const HeroContent = styled.div`
@@ -70,7 +67,7 @@ display: flex;
 flex-direction: column;
 max-width: 1600px;
 width: calc(100% - 100px);
-color: rgb(247, 250, 252);
+color: ;
 text-shadow: black 0.1em 0.0em 0.2em;
 
 h1{
@@ -110,7 +107,7 @@ const arrowButtons = css`
   transition: 0.3s;
 
   &:hover{
-  background: #cd853f;
+  background: #e41e25;
   transform: scale(1.05);
   }
 `;
@@ -133,7 +130,7 @@ const Hero = ({slides}) => {
     const nextSlide = () => {
       setCurrent(current => (current === length - 1 ? 0 : current + 1))
     }
-    timeout.current = setTimeout(nextSlide,20000)
+    timeout.current = setTimeout(nextSlide,7000)
 
     return function () {
       if(timeout.current) {
@@ -169,7 +166,7 @@ const Hero = ({slides}) => {
                 <HeroImage src={slide.image} alt={slide.alt}/>
                 <HeroContent>
                   <h1>{slide.title}</h1>
-                  <h3>{slide.price}</h3>
+                  <p>{slide.price}</p>
                 </HeroContent>
               </HeroSlider>
               )}
