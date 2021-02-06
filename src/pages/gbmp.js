@@ -17,6 +17,10 @@ import {
   dataBasePazMerida,
   dataBasePazMiranda,
   dataBasePazMonagas,
+  dataBasePazNuevaEsparta,
+  dataBasePazSucre,
+  dataBasePazTrujillo,
+  dataBasePazZulia
   } from '../data/basedepaz'
 const Privacy = () => {
 
@@ -293,9 +297,113 @@ const Privacy = () => {
         ) )
       }
 
+   {
+        dataBasePazNuevaEsparta.map( base => (
+          <Accordion key={base.id} title={base.title}
+            content={
+              `<p><strong>${base.base}</strong></p>
+            <p><strong>Dirección: </strong>${base.direccion}</p>
+            <p><strong>Coordenadas: </strong><a href='${base.href}'  target='_blank' rel='noreferrer'>${base.coordenadas}</a></p>
+            <p><strong>Servicios que ofrecen: </strong>${base.estructura}.</p>
+            <p><strong>Coordinador(a): </strong>${base.coordinador}.</p>
+            </br>
 
+      <p><strong>${base.base2}</strong></p>
+        <p><strong>Dirección: </strong>${base.direccion2}</p>
+            <p><strong>Coordenadas: </strong><a href='${base.href2}'  target='_blank' rel='noreferrer'>${base.coordenadas2}</a></p>
+            <p><strong>Servicios que ofrecen: </strong>${base.estructura2}.</p>
+            <p><strong>Coordinador(a): </strong>${base.coordinador2}.</p>
+        </br>
 
+    
+             `}
+          />
+        ) )
+      }
 
+   {
+        dataBasePazSucre.map( base => (
+          <Accordion key={base.id} title={base.title}
+            content={
+              `<p><strong>${base.base}</strong></p>
+            <p><strong>Dirección: </strong>${base.direccion}</p>
+            <p><strong>Coordenadas: </strong><a href='${base.href}'  target='_blank' rel='noreferrer'>${base.coordenadas}</a></p>
+            <p><strong>Servicios que ofrecen: </strong>${base.estructura}.</p>
+            <p><strong>Coordinador(a): </strong>${base.coordinador}.</p>
+            </br>
+
+      <p><strong>${base.base2}</strong></p>
+        <p><strong>Dirección: </strong>${base.direccion2}</p>
+            <p><strong>Coordenadas: </strong><a href='${base.href2}'  target='_blank' rel='noreferrer'>${base.coordenadas2}</a></p>
+            <p><strong>Servicios que ofrecen: </strong>${base.estructura2}.</p>
+            <p><strong>Coordinador(a): </strong>${base.coordinador2}.</p>
+        </br>
+
+   
+             `}
+          />
+        ) )
+      }
+
+  {
+        dataBasePazTrujillo.map( base => (
+          <Accordion key={base.id} title={base.title}
+            content={
+              `<p><strong>${base.base}</strong></p>
+            <p><strong>Dirección: </strong>${base.direccion}</p>
+            <p><strong>Coordenadas: </strong><a href='${base.href}'  target='_blank' rel='noreferrer'>${base.coordenadas}</a></p>
+            <p><strong>Servicios que ofrecen: </strong>${base.estructura}.</p>
+            <p><strong>Coordinador(a): </strong>${base.coordinador}.</p>
+            </br>
+
+      <p><strong>${base.base2}</strong></p>
+        <p><strong>Dirección: </strong>${base.direccion2}</p>
+            <p><strong>Coordenadas: </strong><a href='${base.href2}'  target='_blank' rel='noreferrer'>${base.coordenadas2}</a></p>
+            <p><strong>Servicios que ofrecen: </strong>${base.estructura2}.</p>
+            <p><strong>Coordinador(a): </strong>${base.coordinador2}.</p>
+        </br>
+
+   
+             `}
+          />
+        ) )
+      }
+
+   {
+        dataBasePazZulia.map( base => (
+          <Accordion key={base.id} title={base.title}
+            content={
+              `<p><strong>${base.base}</strong></p>
+            <p><strong>Dirección: </strong>${base.direccion}</p>
+            <p><strong>Coordenadas: </strong><a href='${base.href}'  target='_blank' rel='noreferrer'>${base.coordenadas}</a></p>
+            <p><strong>Servicios que ofrecen: </strong>${base.estructura}.</p>
+            <p><strong>Coordinador(a): </strong>${base.coordinador}.</p>
+            </br>
+
+      <p><strong>${base.base2}</strong></p>
+        <p><strong>Dirección: </strong>${base.direccion2}</p>
+            <p><strong>Coordenadas: </strong><a href='${base.href2}'  target='_blank' rel='noreferrer'>${base.coordenadas2}</a></p>
+            <p><strong>Servicios que ofrecen: </strong>${base.estructura2}.</p>
+            <p><strong>Coordinador(a): </strong>${base.coordinador2}.</p>
+        </br>
+
+      <p><strong>${base.base3}</strong></p>
+        <p><strong>Dirección: </strong>${base.direccion3}</p>
+            <p><strong>Coordenadas: </strong><a href='${base.href3}'  target='_blank' rel='noreferrer'>${base.coordenadas3}</a></p>
+            <p><strong>Servicios que ofrecen: </strong>${base.estructura3}.</p>
+            <p><strong>Coordinador(a): </strong>${base.coordinador3}.</p>
+        </br>
+
+    <p><strong>${base.base4}</strong></p>
+        <p><strong>Dirección: </strong>${base.direccion4}</p>
+            <p><strong>Coordenadas: </strong><a href='${base.href4}'  target='_blank' rel='noreferrer'>${base.coordenadas4}</a></p>
+            <p><strong>Servicios que ofrecen: </strong>${base.estructura4}.</p>
+            <p><strong>Coordinador(a): </strong>${base.coordinador4}.</p>
+        </br>
+             `}
+          />
+        ) )
+      }
 
     </Layout> 
         

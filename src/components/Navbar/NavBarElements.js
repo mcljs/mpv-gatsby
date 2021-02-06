@@ -104,6 +104,10 @@ export const NavMenuSecondary = styled.div`
   display: flex;
   align-items: center;
   margin-right: 24px;
+
+
+
+
   /* Second Nav */
   /* margin-right: 24px; */
   /* Third Nav */
@@ -125,6 +129,12 @@ export const NavLinkSecondary = styled(Link)`
   padding: 0rem;
   height: 100%;
   cursor: pointer;
+
+    &:hover {
+        color: #141414;
+        text-decoration: none;
+        transition: all 0.2s ease;
+    }
   &.active {
     color: #15cdfc;
   }
@@ -153,13 +163,18 @@ height: 80px;
 
 export const NavLinks = styled(Link)`
 color: #141414;
+text-decoration: none; 
 display: flex;
 align-items: center;
-text-decoration:none;
 padding: 0.5rem 1rem;
 height: 100%;
 font-family: "Ubuntu", sans-serif;
 
+   &:hover {
+        color: #ff4040;
+        text-decoration: none;
+        transition: all 0.3s ease;
+    }
 
 
 @media screen and (max-width: 960px){
@@ -182,6 +197,7 @@ export const NavLinksReponsive = styled(Link)`
   vertical-align: middle;
   padding: 0 5px;
   visibility: hidden;
+
 
 
 @media screen and (max-width: 960px){

@@ -289,9 +289,124 @@ export const dataBasePazMonagas = [
 
 
 
+export const dataBasePazNuevaEsparta = [
+  {
+   'id': '10',
+    'title': 'NUEVA ESPARTA',
+    'base': 'GRAN BASE DE PAZ BOCA DE RIO',
+    'direccion':'Municipio Peninsula de Macanao, Parroquia Boca de Rio',
+    'href': 'https://bit.ly/3ru1unu',
+    'coordenadas': '10.951537593915551, -64.18565523181114',
+    'estructura': 'Recreativo, Deportivo, Cultural, Comedor escuela "Mama Rosa", Parque infantil, Sala de Lectura, Teatro, Tenis de mesa, Fútbol, Voleibol, Baloncesto, Boxeo, Bailoterapia, Spinning, Power Bike, Canto, Gimnasio, Bailoterapia, Tareas Dirigidas',
+    'coordinador': 'Josefina Rodriguez',
+
+    /* -------------------------------------*/
+
+    'base2': 'GRAN BASE DE PAZ LA BLANQUILLA',
+    'direccion2':'Municipio Jose Celedonio Tubores, La Blanquilla',
+    'href2': 'https://bit.ly/3aGRh08',
+    'coordenadas2': '10.91433871375709, -64.07910141646755',
+      'estructura2': 'Comedor escuela "Mama Rosa", Infocentro, Biblioteca, Ajedrez, Bailoterapia, Corazón Urbano, Sala de Boxeo',
+    'coordinador2': 'Ali Gonzalez',
+
+    /* -------------------------------------*/
+
+  }
+]
 
 
 
 
+export const dataBasePazSucre = [
+  {
+   'id': '11',
+    'title': 'SUCRE',
+    'base': 'GRAN BASE DE MISIONES DE PAZ "CUMANA"',
+    'direccion':'Municipio Sucre, Parroquia Cumaná, Barrio los cocos',
+    'href': 'https://bit.ly/2YS2RQw',
+    'coordenadas': '10.447998460679132, -64.17196506032127',
+    'estructura': 'Recreativo, Deportivo, Cultural, Comedor escuela "Mama Rosa", Parque infantil, Sala de Lectura, Teatro, Tenis de mesa, Fútbol, Voleibol, Baloncesto, Boxeo, Bailoterapia, Spinning, Power Bike, Canto, Gimnasio, Tareas Dirigidas',
+    'coordinador': 'Yaquelin Marcano',
 
+    /* -------------------------------------*/
+
+    'base2': 'GIMNASIO VERTICAL "CARUPANO"',
+    'direccion2':'Municipio Bermúdez, Parroquia Carúpano, Av.Circunvalación oeste',
+    'href2': 'https://bit.ly/3cNJ38U',
+    'coordenadas2': '10.645292564654657, -63.255651344974744',
+      'estructura2': 'Orquesta Nacional Sinfonica, Cancha de baloncesto y Futbol',
+    'coordinador2': 'Rafael Ramírez',
+
+    /* -------------------------------------*/
+
+    }
+]
+
+
+
+
+export const dataBasePazTrujillo = [
+  {
+   'id': '13',
+    'title': 'TRUJILLO',
+    'base': 'GRAN BASE DE MISIONES DE PAZ SABANA DE MENDOZA',
+    'direccion':'Municipio Sucre, Parroquia Sabana de Mendoza, Sector Los Ángeles',
+    'href': 'https://bit.ly/2YQzFt9',
+    'coordenadas': '9.44219498027943, -70.76471481614398',
+    'estructura': 'Comedor escuela "Mama Rosa"',
+    'coordinador': 'Yordán Ramos',
+
+    /* -------------------------------------*/
+
+    'base2': 'GRAN BASE DE PAZ LOS SIN TECHOS',
+    'direccion2':'Municipio Valera, Parroquia Valera, Los Sin Techos',
+    'href2': 'https://bit.ly/3cNJ38U',
+    'coordenadas2': '9.312588779718016, -70.62045217567234',
+      'estructura2': 'Comedor escuela "Mama Rosa", Infocentro, Biblioteca, Ajedrez, Infocentro, Servicio Médico, Gimnasio, Parque Infantil',
+    'coordinador2': 'Rafael Torrealba',
+
+    /* -------------------------------------*/
+
+    }
+]
+
+export const dataBasePazZulia = [
+  {
+   'id': '14',
+    'title': 'ZULIA',
+    'base': 'GRAN BASE DE PAZ EL PROGRESO',
+    'direccion':'Municipio San Francisco, Parroquia San Francisco, Sector Cuidadela Rafael Caldera',
+    'href': 'https://n9.cl/dpoyt',
+    'coordenadas': '10.521781403525829, -71.69081040264808',
+    'estructura': 'Recreativo, Deportivo, Cultural, Comedor escuela "Mama Rosa", Parque infantil, Sala de Lectura, Teatro, Tenis de mesa, Fútbol, Voleibol, Baloncesto, Bailoterapia, Spinning, Power Bike, Canto, Gimnasio, Tareas Dirigidas',
+    'coordinador': 'Hiwatd Hidalgo',
+
+    /* -------------------------------------*/
+
+    'base2': 'GRAN BASE DE PAZ LOS LIRIOS',
+    'direccion2':'Municipio Maracaibo, Parroquia Antonio Borjas Romero, Barrio San Antonio',
+    'href2': 'https://n9.cl/vkyo',
+    'coordenadas2': '10.695483968792743, -71.71105878915644',
+      'estructura2': 'Comedor escuela "Mama Rosa", Infocentro, Biblioteca, Ajedrez, Sala de Fisiometria, Cancha de uso Múltiple',
+    'coordinador2': 'Edith Moreno',
+
+    /* -------------------------------------*/
+
+    'base3': 'GRAN BASE DE PAZ CIUDAD EL SOL',
+    'direccion3':'Municipio San Francisco, Parroquia San Francisco, Barrio Betulio Gonzalez',
+    'href3': 'https://n9.cl/f16o',
+    'coordenadas3': '10.54936003739889, -71.6364487314843',
+    'estructura3': 'Corazón Urbano, Programa Comunicacional y Radio, Programa de masificación deportiva y recreativa, Comedor Escuela "Mama Rosa"',
+    'coordinador3': 'Maixer Fuenmayor',
+
+    /* -------------------------------------*/
+
+    'base4': 'GRAN BASE DE PAZ CUATRICENTENARIO',
+    'direccion4':'Municipio Maracaibo, Parroquia Antonio Borjas Romero, Barrio Cuatricentenario',
+    'href4': 'https://n9.cl/96a63',
+    'coordenadas4': '10.65272359081278, -71.671750373811',
+    'estructura4': 'Formación y Tecnologia',
+    'coordinador4': 'Zaidujil Soto',
+  }
+]
 
