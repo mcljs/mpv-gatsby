@@ -6,7 +6,7 @@ module.exports = {
     siteUrl: `https://movimientoporlapazylavida.netlify.app`
   },
   flags:{
-    DEV_SSR: true
+    DEV_SSR: false
   },
   plugins: [
     {

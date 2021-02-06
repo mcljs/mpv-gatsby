@@ -6,6 +6,8 @@ import { MainContent } from '../components/styles/base';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Accordion from '../components/Accordion/Acoordion';
 //import {Table} from 'react-bootstrap';
+import Hero from '../components/Hero/Hero';
+import {SliderData} from '../components/Hero/SliderData';
 import {
   dataBasePazAnzoategui,
   dataBasePazAragua,
@@ -22,11 +24,10 @@ const Privacy = () => {
 
   return(
     <Layout>
-       
         <SEO title="Grandes Bases de Misiones de Paz" />
-      <h1 className="privacy" style={{fontSize: '4.2rem',textAlign: 'center'}}>Grandes Bases</h1>
+      <Hero slides={SliderData}/>
       <MainContent>
-  <p>Para saber de nuestra ubicación especifica ingresa al Link que se encuentra en <strong>"COORDENADAS UTM"</strong> de la Base de tu preferencia.</p>
+  <p>Para saber de nuestra ubicación ingresa al Estado donde te ubicas conseguiras <strong>"COORDENADAS"</strong>  que te dirigen a Google Maps de la Base de tu preferencia.</p>
       </MainContent>
 
       {
