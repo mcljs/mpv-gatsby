@@ -12,6 +12,7 @@ import Footer from './Footer'
 
 
 import NavBar from "./Navbar"
+import {GlobalStyled} from "./styles/global"
 
 const Layout = ({ children }) => {
   
@@ -19,6 +20,7 @@ const Layout = ({ children }) => {
 
   return (
     <>
+    <GlobalStyled />
     <NavBar/>
         <main>{children}</main>
       <Footer/>
