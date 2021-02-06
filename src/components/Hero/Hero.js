@@ -67,7 +67,7 @@ display: flex;
 flex-direction: column;
 max-width: 1600px;
 width: calc(100% - 100px);
-color: ;
+color: #fff;
 text-shadow: black 0.1em 0.0em 0.2em;
 
 h1{
