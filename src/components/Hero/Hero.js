@@ -9,6 +9,7 @@ const HeroSection = styled.section`
   max-height: 1100px;
   position: relative;
   overflow: hidden;
+
 `;
 
 const HeroWrapper = styled.div`
@@ -68,7 +69,7 @@ flex-direction: column;
 max-width: 1600px;
 width: calc(100% - 100px);
 color: #fff;
-text-shadow: black 0.1em 0.0em 0.2em;
+text-shadow: 2px 2px 2px #000;
 
 h1{
   font-size: clamp(1rem,8vw, 2rem);
@@ -166,7 +167,7 @@ const Hero = ({slides}) => {
                 <HeroImage src={slide.image} alt={slide.alt}/>
                 <HeroContent>
                   <h1>{slide.title}</h1>
-                  <p>{slide.price}</p>
+                  <h3>{slide.price}</h3>
                 </HeroContent>
               </HeroSlider>
               )}

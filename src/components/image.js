@@ -8,7 +8,7 @@ import "./image.css"
 const Image = () => {
   const data = useStaticQuery(graphql`
   query {
-    allFile(filter: {extension: {regex: "/(jpg)|(png)|(jpeg)/"}, name: {nin: ["gatsby-icon","mpv-logo","img-1","img-2", "img-3", "img-8","img-9"]}}) {
+    allFile(filter: {extension: {regex: "/(jpg)|(png)|(jpeg)/"}, name: {nin: ["gatsby-icon","mpv-logo","img-1","img-2", "img-3", "img-8","img-9","muchachada-1","muchachada-2","muchachada"]}}) {
       edges {
         node {
           base
