@@ -17,6 +17,7 @@ module.exports = {
         anonymize: true,
       },
     },
+  `gatsby-plugin-mdx`,
     `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-styled-components`,
@@ -41,6 +42,13 @@ module.exports = {
       options: {
         name: `posts`,
         path: `${__dirname}/posts`,
+      },
+    },
+   {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `biblioteca`,
+        path: `${__dirname}/biblioteca`,
       },
     },
     {

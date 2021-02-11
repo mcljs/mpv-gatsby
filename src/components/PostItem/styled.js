@@ -8,6 +8,8 @@ color: #1062ae;
   
   &:hover {
     color: #1fa1f2;
+text-decoration: none;
+
   }
 `
 

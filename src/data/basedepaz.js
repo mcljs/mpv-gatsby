@@ -2,7 +2,7 @@ export const dataBasePazAnzoategui = [
   {
     'id': '1',
     'title': 'ANZOATEGUI',
-    'base': 'GRAN BASE DE PAZ LA ISLETAS',
+    'base': 'GRAN BASE DE PAZ LAS ISLETAS',
     'direccion':'Municipio Sotillo, Parroquia Puerto La Cruz, Isla de Cuba',
     'href': 'https://cutt.ly/TkllHd4',
     'coordenadas': '10.198303332547752, -64.63723874954303',

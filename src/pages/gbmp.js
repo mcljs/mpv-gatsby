@@ -31,7 +31,7 @@ const Privacy = () => {
         <SEO title="Grandes Bases de Misiones de Paz" />
       <Hero slides={SliderData}/>
       <MainContent>
-  <p>Para saber de nuestra ubicación ingresa al Estado donde te ubicas conseguiras <strong>"COORDENADAS"</strong>  que te dirigen a Google Maps de la Base de tu preferencia.</p>
+  <p>Para saber de nuestra ubicación ingresa al Estado donde te ubicas conseguiras <strong>"COORDENADAS"</strong>  que te dirige a Google Maps donde podras encontrar la Base de tu preferencia.</p>
       </MainContent>
 
       {
