@@ -44,13 +44,7 @@ module.exports = {
         path: `${__dirname}/posts`,
       },
     },
-   {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `biblioteca`,
-        path: `${__dirname}/biblioteca`,
-      },
-    },
+
     {
       resolve: `gatsby-transformer-remark`,
       options: {
