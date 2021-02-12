@@ -8,6 +8,7 @@ background: red
 image: /assets/img/mpv-logo.png
 twitter_text: Día 194 de la lucha contra la COVID-19 Venezuela registra 823
   casos comunitarios, 44 importados
+timeToRead: 3 minutos de lectura
 ---
 ![Freddy-Ñanez](/assets/img/img-1.png)
 
