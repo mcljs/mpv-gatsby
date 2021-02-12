@@ -1,11 +1,11 @@
 ---
-background:red
+background: red
 date: 2021-01-31 15:21:22
 image: /assets/img/2021-01-31-alexander-mimou-vargas-y-gobernacion-del-estado-lara-entregaron-cancha-de-usos-multiples/img-1.jpg
 title: Alexander 'Mimou' Vargas y Gobernación del Estado Lara entregaron cancha de usos múltiples
 description: null
 twitter_text: El Secretario Ejecutivo de la Comisión Presidencial por la Paz y la Vida, Alexander Vargas Gutiérrez, entregó cancha de usos múltiples e implementos deportivos
-category: null
+category: Relevante
 timeToRead: 3 minutos de lectura
 ---
 
