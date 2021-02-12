@@ -5,7 +5,7 @@ image:/assets/img/2021-02-02-inaguracion-tres-cancha-deportiva/img-1.jpg
 title:Fundación Movimiento Por la Paz y la Vida y Barrio Nuevo Tricolor inauguran tres canchas deportivas 
 description: null
 twitter_text: Fundación Movimiento Por la Paz y la Vida y Barrio Nuevo Tricolor inauguran tres canchas deportivas 
-category: null
+category: Relevante
 timeToRead: 3 minutos de lectura
 ---
 ![Vargas](/assets/img/2021-02-02-inaguracion-tres-cancha-deportiva/img-1.jpg)
