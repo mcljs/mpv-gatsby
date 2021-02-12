@@ -23,7 +23,6 @@ Asimismo, Alexander Vargas, explicó que son las mujeres por la Paz y la Vida, l
 
 'Nosotros veníamos desplegados a nivel nacional con 4500 mujeres, ahora la meta será alcanzar los 20 mil en todo el territorio nacional, para que se pueda tender el puente de la paz en todo, pues las mujeres son las facilitadoras de la Paz. Por eso fomentamos los Núcleos de Paz de mujeres, que le dará fuerza a la mujer de los barrios venezolanos', dijo Mimou Vargas.
 
-![Mujeres1-Vargas](/assets/img/2021-02-04-juramento-red-mujeres-caracas/img-4.jpg)
 
 Finalmente, la directora nacional de mujeres por la Paz y la Vida, Betsimar Pérez, manifestó; 'que se unen en la lucha por la construcción de una Patria - Matria segura, justa e igualitaria, amante de la paz con justicia social en el marco de la construcción del Socialismo Bolivariano y Feminista del Siglo XXI, cuya bandera de lucha principal sea transformar  y empoderar en el territorio a las mujeres que han sido víctimas de cualquier tipo de violencia, asumiéndolas como agentes de cambio en el salto organizativo hacia la consolidación del Nuevo Poder Popular', concluyó Perez.
 
