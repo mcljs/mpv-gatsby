@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import Link from '../link'
 import SoundWave from '../../images/sound-wave.svg'
 
-function BibliotecaSeason({biblioteca}) {
+function BibliotecaSeason({biblioteca,seccion,articulo}) {
  
   return (
     <SeasonContainer>
@@ -77,12 +77,12 @@ function BibliotecaSeason({biblioteca}) {
                   NUEVO!
                 </div>
                            <Seasonh2 >
-               Planes y Programas
+                             {seccion}
                            </Seasonh2>
             </div>
           </div>
           <small css={{opacity: 0.7, fontSize: 13}}>
-            1 Articulos
+            {articulo} Articulo
           </small>
         </SeasonLink>
       </div>
@@ -185,8 +185,8 @@ const SeasonContainer = styled.div`
         background: 'white';
         border-radius: 5;
         border: 1px solid #f1f1f1;
-
-
+        margin-top: 1.5rem;
+       
 
 `
 const SeasonLink = styled(Link)`
