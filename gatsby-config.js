@@ -17,6 +17,12 @@ module.exports = {
         anonymize: true,
       },
     },
+ {
+        resolve: 'gatsby-plugin-mailchimp',
+        options: {
+            endpoint: 'https://gmail.us7.list-manage.com/subscribe/post?u=f2b09504ccc94e655393cf34f&amp;id=000de9b5d6', 
+        },
+    },
     `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-styled-components`,

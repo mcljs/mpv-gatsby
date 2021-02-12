@@ -1,3 +1,26 @@
+
+.subscribe-form__message_success, .subscribe-form__message_failure {
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 5px;
+}
+
+
+.subscribe-form__message_success {
+ background-color: #141414;
+ margin-right: 6px;
+ border-radius: 4px;
+  color: #70974A ;
+}
+
+.subscribe-form__message_failure {
+  background-color: #141414;
+ margin-right: 6px;
+ border-radius: 4px;
+  color: #FF474C;
+}
+
+
 .image-container {
     text-align: center;
     margin: 150px 0;
