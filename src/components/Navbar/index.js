@@ -53,9 +53,11 @@ export default function NavBar() {
                     <NavIcon/>
                     <img src={logo} alt={logo}
                          css={`
-                         width: 120%;
+                         width: auto;
+                         height: 70px;
                         @media screen and (max-width: 920px){
-                          width: 18%;
+                          width: auto;
+                          height: 60px;
                           }
                         `}
                     />

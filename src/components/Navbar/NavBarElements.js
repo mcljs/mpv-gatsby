@@ -124,7 +124,7 @@ export const NavLinkSecondary = styled(Link)`
   display: flex;
   align-items: center;
   text-align: left;
-  margin-left: 139px;
+  margin-left: 119px;
   text-decoration: none;
   padding: 0rem;
   height: 100%;

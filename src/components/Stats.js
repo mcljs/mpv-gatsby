@@ -38,6 +38,7 @@ const Heading = styled.h1`
   text-align: start;
   font-size: clamp(1.5rem, 5vw, 2rem);
   margin-bottom: 2rem;
+  margin-top: -2rem;
   padding: 0 2rem;
 `
 const Wrapper = styled.div`
