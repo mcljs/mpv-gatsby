@@ -29,7 +29,7 @@ const MarcoLibro = styled.section`
     display: inline-block;
     width: 90%;
     margin: 20px;
-    margin-top: 30px;
+    margin-top: 60px;
 
 `
 const ParraUnico = styled.div`
