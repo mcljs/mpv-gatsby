@@ -32,7 +32,7 @@ const [email, setEmail] = useState('');
           <label htmlFor="email">
             <input 
             type="email"
-            value={email || "email"}
+            value={email || ""}
             placeholder="Ingresa tu correo electronico" 
             id="email"
             onChange={handleChange}/>
