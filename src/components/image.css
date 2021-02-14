@@ -23,7 +23,10 @@
 
 .image-container {
     text-align: center;
-    margin: 150px 0;
+    margin: 1px 0 -8px 0;
+    background-color: #fbfbfb;
+    padding-bottom: 100px;
+    padding-top: 100px;
 }
 
 .image-container h1 {

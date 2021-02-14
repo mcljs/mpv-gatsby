@@ -6,6 +6,7 @@ import SEO from "../components/Seo"
 import HeroSection from "../components/HeroSection"
 import Image from "../components/image"
 import Email from '../components/Email'
+import Stats from '../components/Stats';
 
 const IndexPage = () => {
  
@@ -14,9 +15,9 @@ const IndexPage = () => {
   <Layout>
     <SEO title="Inicio" />
     <HeroSection />
-    <h1> </h1>
     <Image />
-    <h1> </h1> 
+    <h1 > </h1> 
+    <Stats />
     <Email />
   </Layout>
 )

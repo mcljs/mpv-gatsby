@@ -88,7 +88,8 @@ const EmailContainer = styled.div`
       display: flex;
       justify-content: center;
       align-items: center;
-      margin-bottom: 120px;
+  
+
 `
 const EmailContent = styled.div`
   display: flex;
