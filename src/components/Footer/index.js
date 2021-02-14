@@ -23,15 +23,15 @@ const Footer = () => {
    
                  
                   <SocialIcons>
-                      <Link to={url_facebook} arial-label="Facebook">
+                      <Link to={url_facebook} arial-label="Visit my Facebook">
                           <FaFacebook style={{color: '#fff' ,fontSize: '20px'}}/> 
                           </Link>
 
-            <Link to={url_facebook} arial-label="Instagram">
+            <Link to={url_facebook} arial-label="Visit my Instagram">
                 <FaInstagram style={{color: '#fff' ,fontSize: '20px'}} />
             </Link>
 
-                      <Link to={url_twitter}  arial-label="Twitter">
+                      <Link to={url_twitter}  arial-label="Visit my Twitter">
            <FaTwitter style={{color: '#fff' ,fontSize: '20px'}} /> 
             </Link>
 
