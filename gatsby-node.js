@@ -126,6 +126,18 @@ exports.createResolvers = ({ cache, createResolvers }) => {
 }
 
 
+exports.onCreatePage = async({page,actions}) => {
+  const {createPage} = actions
+
+
+  if(page.path.match(/^\/biblioteca/)){
+    page.matchPath = "/biblioteca/*"
+
+    createPage(page)
+  }
+}
+
+
 
 const createIndex = async (blogNodes, type, cache) => {
   const cacheKey = `IndexLunr`

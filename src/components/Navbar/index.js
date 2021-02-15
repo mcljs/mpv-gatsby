@@ -38,7 +38,7 @@ export default function NavBar() {
                            <NavLinkSecondary to="/eda" active={scroll}>
                                  Ejes de Acción
                               </NavLinkSecondary>
-                             <NavLinkSecondary to="/biblioteca" active={scroll}>
+                             <NavLinkSecondary to="/biblioteca/general" active={scroll}>
                                 Biblioteca Digital
                               </NavLinkSecondary>
                                  <NavLinkSecondary to="/estadisticas" active={scroll}>
@@ -101,7 +101,7 @@ export default function NavBar() {
                           <NavLinksReponsive to="/eda">
                             Ejes de Acción
                         </NavLinksReponsive>
-                        <NavLinksReponsive to="/biblioteca">
+                        <NavLinksReponsive to="/biblioteca/general">
                             Biblioteca Digital
                         </NavLinksReponsive>
                       <NavLinksReponsive to="/estadisticas"

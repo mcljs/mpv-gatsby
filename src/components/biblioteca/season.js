@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import Link from '../link'
 import SoundWave from '../../images/sound-wave.svg'
 
-function BibliotecaSeason({biblioteca,seccion,articulo}) {
+function BibliotecaSeason({biblioteca,seccion,articulo,id}) {
  
   return (
     <SeasonContainer>
@@ -100,7 +100,7 @@ function BibliotecaSeason({biblioteca,seccion,articulo}) {
       
              <li css={{margin: 0}}>
                 <Link
-                  to={biblioteca.url}
+                  to={`/biblioteca/${biblioteca.id}`}
                   css={{
                     display: 'flex',
                     alignItems: 'center',
