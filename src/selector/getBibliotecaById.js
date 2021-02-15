@@ -1,4 +1,4 @@
-import {BibliotecaData} from '../components/biblioteca/BibliotecaData'
+import {BibliotecaData} from '../data/biblioteca'
 
 export const getBibliotecaById = (id) => {
 

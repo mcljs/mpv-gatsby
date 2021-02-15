@@ -1,10 +1,13 @@
-import React from 'react';
+import React,{useMemo} from 'react';
 import styled from 'styled-components';
 import Link from '../link'
 import SoundWave from '../../images/sound-wave.svg'
+import {getBibliotecaByPublisher} from '../../selector/getBibliotecaByPublisher'
 
-function BibliotecaSeason({biblioteca,seccion,articulo,id}) {
+function BibliotecaSeason({biblioteca,seccion,articulo,publisher}) {
  
+  const Biblioteca = useMemo(() => getBibliotecaByPublisher(publisher), [publisher] )
+  
   return (
     <SeasonContainer>
      
@@ -96,7 +99,7 @@ function BibliotecaSeason({biblioteca,seccion,articulo,id}) {
             margin: 0,
           }}
         >
-  {biblioteca.map((biblioteca) =>(
+  {Biblioteca.map((biblioteca) =>(
       
              <li css={{margin: 0}}>
                 <Link
