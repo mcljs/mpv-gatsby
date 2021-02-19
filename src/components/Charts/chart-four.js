@@ -31,12 +31,29 @@ class ChartFour extends Component{
           data={this.state.chartData}
           var options={{
             scales: {
-              yAxes: [{
-                ticks: {
-                  beginAtZero: false
-                }
-              }]
+              display: false
             },
+tooltips: {
+		enabled: true,
+		callbacks: {
+			label: function (tooltipItem, data) {
+				
+				var dataset = data.datasets[tooltipItem.datasetIndex];
+				var total = dataset.data.reduce(function (previousValue, currentValue, currentIndex, array) {
+					return previousValue + currentValue;
+				});
+				var currentValue = dataset.data[tooltipItem.index];
+				var percentage = Math.floor(((currentValue / total) * 100) + 0.5);
+				return percentage + "%";
+			},                    
+			title: function (tooltipItem, data) {
+				return data.labels[tooltipItem[0].index];
+			},
+			
+			
+		},
+		
+	},
        
           }}
         />
