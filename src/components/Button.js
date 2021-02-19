@@ -3,7 +3,7 @@ import {Link} from 'gatsby';
 
 
 export const Button = styled(Link)`
-  background: ${({primary}) => (primary ? 'rgb(250,56,94)' : 'rgb(226,52,86)')};
+  background: ${({primary}) => (primary ? '#C81617' : '#E2191A')};
   white-space: nowrap;
   padding: ${({big}) => (big ? '16px 40px' : '10px 32px')};
   color: #fff;
@@ -17,7 +17,7 @@ export const Button = styled(Link)`
   border-radius: ${({round}) => (round ? '50px' : 'none')};
  
   &:hover {
-  background: ${({primary}) => (primary ? 'rgb(226,52,86)' : 'rgb(250,56,94)')};
+  background: ${({primary}) => (primary ? '#E2191A' : '#C81617')};
   transform: translateY(-2px);
   }
 `
