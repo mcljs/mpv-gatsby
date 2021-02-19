@@ -7,13 +7,16 @@ class ChartFour extends Component{
     super(props);
     this.state = {
       chartData:{
-        labels: ['Directos','Indirectos'],
+        labels: ['Formación','Deporte','Cultura','Política','Producción'],
         datasets:[{
             label: 'Beneficiaros',
-            data:[189.631,207.394],
+            data:[17,39,21,19,4],
             backgroundColor:[
-                'rgb(70,132,238,0.8)',
-                    'rgb(220,57,28,0.8)',
+               'rgb(0,128,0,0.7)',
+                'rgb(255,153,0,0.7)',
+                'rgb(220,57,28,0.7)',
+                'rgb(70,132,238,0.7)',
+                'rgb(119,47,60,0.7)',
             ],
         }]
       }
@@ -30,13 +33,11 @@ class ChartFour extends Component{
             scales: {
               yAxes: [{
                 ticks: {
-                  beginAtZero: true
+                  beginAtZero: false
                 }
               }]
             },
-            legend:{
-                display:this.props.displayLegend,
-              }
+       
           }}
         />
 

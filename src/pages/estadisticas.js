@@ -5,7 +5,7 @@ import '../../src/components/layout.css'
 import { MainContent } from '../components/styles/base'
 import Chartone from '../components/Charts/chart-one'
 import CharTwo from '../components/Charts/chart-two'
-import ChartThree from '../components/Charts/chart-three'
+//import ChartThree from '../components/Charts/chart-three'
 import ChartFour from '../components/Charts/chart-four'
 import '../../src/components/estadistica.css'
 
@@ -22,11 +22,9 @@ const Estadisticas = () => (
 
 <h1>Estadisticas Del Movimiento Por La Paz Y La Vida</h1>
 
-    <h3>Total de Beneficiarios Atendidas Abril</h3>
-    <h4>64.879</h4>
-<p>-------------------------------</p>
-    <h3>Total de Actividades Realizadas Abril</h3>
-    <h4>941</h4>
+          <h3>Total Actividades Planificadas 2021:</h3>
+   <h4>962</h4>
+          <h1>------------</h1>
 
 
 
@@ -34,23 +32,17 @@ const Estadisticas = () => (
 
 
 <div className="grafica">
-<p>Poblacion Atendida por Grupo Etario Abril</p>
+<p>Balance Actividades Planificada por Mes</p>
 <Chartone/>
 </div>
 
 <div className="grafica">
-<p>Actividades Realizadas Abril</p>
+<p>Actividades Planificadas Enero - Febrero</p>
 <CharTwo/>
 </div>
 
 <div className="grafica">
-<p>Beneficiarios Atendido 2020</p>
-<ChartThree/>
-
-</div>
-
-<div className="grafica">
-<p>Distribución Atendido Indirectos e Indirectos 2020</p>
+<p>% de Actividades Planificada Enero - Febrero 2021 por Vértice</p>
 <ChartFour/>
 </div>
 
