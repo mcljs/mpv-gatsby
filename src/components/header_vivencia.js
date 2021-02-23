@@ -33,7 +33,8 @@ width: 380px;
  position: absolute;
  margin-left: -16px;
  margin-top: -90px;
- width: 200px;
+ visibility: hidden;
+ width: 100px;
               } 
 
 `;
@@ -93,7 +94,7 @@ const EmailContent = styled.div`
   }
 
 @media screen and (max-width: 768px){
-margin-top: 140px;
+margin-top: 60px;
 padding-left: 45px;
               }
           

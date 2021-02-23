@@ -88,13 +88,7 @@ module.exports = {
         icon: `src/images/mpv-logo.png`, // This path is relative to the root of the site.
       },
     },
-  `gatsby-transformer-json`,
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        path: `./src/data/`,
-      },
-    },
+
     `gatsby-plugin-sitemap`,
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
