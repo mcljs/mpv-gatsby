@@ -21,8 +21,8 @@ const Ejes = () =>{
 
       <BibliotecaSeason  biblioteca={BibliotecaData}
         url="vivencia"
-      seccion="Vivencia Paz y Vida"
-      publisher="Vivencia Paz y Vida"
+      seccion="Vivencias Paz y Vida"
+      publisher="Vivencias Paz y Vida"
       articulo="0"/>
 
       <BibliotecaSeason css={{marginTop: '1.5rem'}} biblioteca={BibliotecaData}

@@ -3,7 +3,7 @@ import { BibliotecaData } from '../data/biblioteca'
 
 export const getBibliotecaByPublisher = (publisher) => {
 
-  const validPublishers = ['Planes y Programas', 'Vivencia Paz y Vida'];
+  const validPublishers = ['Planes y Programas', 'Vivencias Paz y Vida'];
 
   if(!validPublishers.includes(publisher)) {
     throw new Error(`Publisher "${publisher}" no es correcto`)

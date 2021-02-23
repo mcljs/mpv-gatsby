@@ -18,6 +18,6 @@ export const BibliotecaData = [
   },
   {
 
-    publisher: 'Vivencia Paz y Vida',
+    publisher: 'Vivencias Paz y Vida',
   },
 ]

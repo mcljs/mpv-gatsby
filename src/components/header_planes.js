@@ -33,7 +33,7 @@ width: 380px;
  position: absolute;
  margin-left: -16px;
  margin-top: -90px;
- width: 200px;
+ width: 120px;
               } 
 
 `;
