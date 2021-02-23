@@ -4,6 +4,8 @@ import '../../src/components/layout.css'
 import BibliotecaScreenG from '../modules/Biblioteca_index'
 import {Router} from '@reach/router'
 import BibliotecaScreen from '../modules/BibliotecaScreen'
+import BibliotecaPlanes from '../modules/Biblioteca_planes';
+import BibliotecaVivencia from '../modules/Biblioteca_vivencia'
 const Ejes = () =>{
 
 
@@ -15,6 +17,8 @@ const Ejes = () =>{
         <Router>
         <BibliotecaScreenG path="/biblioteca/general" />
               <BibliotecaScreen path="/biblioteca/:bibliotecaId"/>
+              <BibliotecaPlanes path="/biblioteca/planes" />
+              <BibliotecaVivencia path="biblioteca/vivencia"/>
       </Router>
        
    

@@ -1,0 +1,15 @@
+[
+  {
+    "img":"../assets/images/image-1.jpg",
+    "alt": "Spam",
+    "name": "Take a relax with the best view",
+    "button": "View Site"
+  },
+ {
+    "img":"../assets/images/image-2.jpg",
+    "alt": "Piscinas",
+    "name": "Enjoy our best sites",
+    "button": "View Site"
+  }
+
+]

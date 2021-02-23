@@ -28,6 +28,7 @@ module.exports = {
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-social-cards`,
     // nned to be  the first to work with gatsby-remark-images
+
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -35,6 +36,7 @@ module.exports = {
         path: `${__dirname}/static/assets/img`,
       },
     },
+
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -84,6 +86,13 @@ module.exports = {
         theme_color: `#16202c`,
         display: `minimal-ui`,
         icon: `src/images/mpv-logo.png`, // This path is relative to the root of the site.
+      },
+    },
+  `gatsby-transformer-json`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `./src/data/`,
       },
     },
     `gatsby-plugin-sitemap`,

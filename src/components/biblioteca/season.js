@@ -3,8 +3,10 @@ import styled from 'styled-components';
 import Link from '../link'
 import SoundWave from '../../images/sound-wave.svg'
 import {getBibliotecaByPublisher} from '../../selector/getBibliotecaByPublisher'
+import {BsBook} from '@react-icons/all-files/bs/BsBook'
 
-function BibliotecaSeason({biblioteca,seccion,articulo,publisher}) {
+
+function BibliotecaSeason({url,biblioteca,seccion,articulo,publisher}) {
  
   const Biblioteca = useMemo(() => getBibliotecaByPublisher(publisher), [publisher] )
   
@@ -14,7 +16,7 @@ function BibliotecaSeason({biblioteca,seccion,articulo,publisher}) {
     
     <div css={{width: '100%'}}>
         <SeasonLink
-                                       >
+            to={url}                           >
           <div
             css={{
               alignItems: 'center',
@@ -44,18 +46,10 @@ function BibliotecaSeason({biblioteca,seccion,articulo,publisher}) {
             
               }}
             >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="20"
-                viewBox="0 0 24 20"
-              >
-             <polygon
-                  fill="white"
-                  fillRule="evenodd"
-                  points="7 0 104 10 7 20"
-                />
-              </svg>
+              <BsBook css={{
+                color: 'black',
+
+              }}/>
             </div>
 
             <div
