@@ -1,12 +1,6 @@
-export const onPreRenderHTML = ({ getHeadComponents, replaceHeadComponents }) => {
-  const headComponents = getHeadComponents();
-  headComponents.sort((a, b) => {
-    if (a.type === 'meta') {
-      return -1;
-    } else if (b.type === 'meta') {
-      return 1;
-    }
-    return 0;
-  });
-  replaceHeadComponents(headComponents);
-};
+exports.onPreRenderHTML = ({ getHeadComponents, replaceHeadComponents }) => {
+    const headComponents = getHeadComponents()
+    const styleHeadComponents = headComponents.filter((component) => component.type === 'style')
+    const nonStyleHeadComponents = headComponents.filter((component) => component.type !== 'style')
+    replaceHeadComponents([nonStyleHeadComponents, styleHeadComponents])
+}
