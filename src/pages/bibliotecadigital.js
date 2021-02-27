@@ -7,7 +7,7 @@ import BibliotecaSeason from '../components/biblioteca/season';
 import {BibliotecaData} from '../data/biblioteca'
 
 
-const Ejes = () =>{
+const Ej = () =>{
 
 
 
@@ -15,7 +15,7 @@ const Ejes = () =>{
   return(
     <Layout>
        
-        <SEO title="Biblioteca Digital" />
+        <SEO title="Biblioteca digital" />
       <h1 className="biblioteca" style={{fontSize: '4.2rem',textAlign : 'center'}}>Biblioteca Digital</h1>
 
 
@@ -38,4 +38,4 @@ const Ejes = () =>{
     </Layout> 
 )}
 
-export default Ejes
+export default Ej
