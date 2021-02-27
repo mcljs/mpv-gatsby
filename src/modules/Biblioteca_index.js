@@ -5,7 +5,7 @@ import '../../src/components/layout.css'
 import { MainContent } from '../components/styles/base'
 import BibliotecaSeason from '../components/biblioteca/season';
 import {BibliotecaData} from '../data/biblioteca'
-import {General} from '../pages/biblioteca/general'
+import Page from '../pages/about'
 
 const Ejes = () =>{
 
@@ -15,8 +15,8 @@ const Ejes = () =>{
   return(
 
     <Layout>
-           <General />
-      
+       
+      <Page />
       <h1 className="biblioteca" style={{fontSize: '4.2rem',textAlign : 'center'}}>Biblioteca Digital</h1>
 
 
