@@ -13,16 +13,18 @@ const Ejes = () =>{
 
 
   return(
-  
-      
-        <Router>
-              <SEO />
+        <>
+   <SEO  title="Biblioteca"/>
+                <Router>
+                    
+
         <BibliotecaScreenG path="/biblioteca/general" />
               <BibliotecaScreen path="/biblioteca/:bibliotecaId"/>
               <BibliotecaPlanes path="/biblioteca/planes" />
               <BibliotecaVivencia path="biblioteca/vivencia"/>
+
       </Router>
-       
+        </>
    
 )}
 
