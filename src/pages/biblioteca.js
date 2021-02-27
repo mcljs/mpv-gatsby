@@ -6,7 +6,6 @@ import {Router} from '@reach/router'
 import BibliotecaScreen from '../modules/BibliotecaScreen'
 import BibliotecaPlanes from '../modules/Biblioteca_planes';
 import BibliotecaVivencia from '../modules/Biblioteca_vivencia'
-import SEO from '../components/Seo';
 const Ejes = () =>{
 
 
@@ -14,8 +13,8 @@ const Ejes = () =>{
 
   return(
         <>
-   <SEO  title="Biblioteca"/>
-                <Router>
+
+                           <Router>
                     
 
         <BibliotecaScreenG path="/biblioteca/general" />

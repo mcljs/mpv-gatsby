@@ -1,11 +1,11 @@
 import React from 'react';
 import Layout from '../components/layout';
-import SEO from '../components/Seo';
+
 import '../../src/components/layout.css'
 import { MainContent } from '../components/styles/base'
 import BibliotecaSeason from '../components/biblioteca/season';
 import {BibliotecaData} from '../data/biblioteca'
-
+import {General} from '../pages/biblioteca/general'
 
 const Ejes = () =>{
 
@@ -13,9 +13,10 @@ const Ejes = () =>{
 
 
   return(
+
     <Layout>
-       
-        <SEO title="Biblioteca Digital" />
+           <General />
+      
       <h1 className="biblioteca" style={{fontSize: '4.2rem',textAlign : 'center'}}>Biblioteca Digital</h1>
 
 
