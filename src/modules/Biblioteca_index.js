@@ -29,7 +29,7 @@ const Ejes = () =>{
       url="planes"
         seccion="Planes y Programas"
         publisher="Planes y Programas"
-      articulo="1"/>
+      articulo="2"/>
      
         <MainContent>
 
