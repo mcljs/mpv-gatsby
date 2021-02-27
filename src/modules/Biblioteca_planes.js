@@ -7,13 +7,13 @@ import SEO from '../components/Seo';
 
 
 
-
-
 const BibliotecaPlanes = (  ) => {
-    
+
+
     return(
+   
   <Layout>
-  <SEO title="Planes y Programas" />
+    <SEO title="Planes y Programas"/>
     <HeaderPlanes/>
     <BookCard  Book={BibliotecaDataPlanes}
       publisher="Planes y Programas"
