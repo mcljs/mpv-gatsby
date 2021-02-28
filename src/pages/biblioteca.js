@@ -19,10 +19,10 @@ const isSSR = typeof window === "undefined"
 
   return(
         <>
-              <SEO title="Biblioteca Digital"/>
+             
                  {!isSSR && (
                  <Suspense fallback={<div>Cargando...</div>}>
-
+                        <SEO title="Biblioteca Digital"/>
                     <Router>
               
                   <BibliotecaScreenG path="/biblioteca" />

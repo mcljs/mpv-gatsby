@@ -5,8 +5,8 @@ import {IoMdDownload} from '@react-icons/all-files/io/IoMdDownload'
 import styled from 'styled-components'
 import Link from '../components/link'
 import Layout from '../components/layout';
-import SEO from '../components/Seo';
 import '../components/layout.css'
+const SEO = React.lazy(()=> import('../components/Seo'))
 
 const Icons = styled(IoMdDownload)`
 color: #e41e25;
@@ -87,6 +87,9 @@ const BibliotecaScreenG = ({history}) => {
     return <Redirect to='/biblioteca/general'/>
   }
 
+const isSSR = typeof window === "undefined"
+
+
   const {
     title,
     genero,
@@ -104,9 +107,13 @@ const BibliotecaScreenG = ({history}) => {
 
   return(
   <>
-    <Layout>
-      <SEO title={title} />
- 
+    <Layout>{!isSSR &&(
+      <React.Suspense fallback={<div>Cargando...</div>}>
+   <SEO title={title} />
+
+      </React.Suspense>
+      )}
+    
  <MarcoLibro>
        <ParraUnico>
   <Ph1>{title}</Ph1>
