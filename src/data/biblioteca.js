@@ -12,7 +12,7 @@ export const BibliotecaData = [
     encuadernacion: 'Digital',
     autor: 'Diputado de la AN de la República Bolivariana de Venezuela. Presidente y Secretario Ejecutivo del Movimiento por la Paz y la Vida Alexander Mimou Vargas',
     description: 'El Plan 89 representa el nuevo comienzo de una institución concebida para trabajar en pro de los más desfavorecidos y con miras a elevar la política de Paz en la Republica; compuesto por cinco (5) vértices estratégicos, siendo estos: Formación,Cultura, Deporte, Política y Producción.',
-    descarga: 'https://download1515.mediafire.com/586x7i2bw16g/sl73v5cysjdxflk/PLAN++89+Completo.pdf',
+    descarga: 'http://download1515.mediafire.com/s0oqo5aerq7g/sl73v5cysjdxflk/PLAN  89 Completo.pdf',
     number: 2,
     image: Plan89
   },
