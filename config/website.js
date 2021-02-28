@@ -1,6 +1,6 @@
 module.exports = {
 
   //Social component
-  twitter: 'https://twitter.com/DPazYVida3',
-  facebook: 'https://www.facebook.com/Movimiento-Por-La-Paz-y-La-Vida-1658143497798479'
+  twitter: 'https://twitter.com/FunMovPazYVida1',
+  facebook: 'https://www.instagram.com/mimouvargas/?hl=es-la'
 }
