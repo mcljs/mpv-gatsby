@@ -14,7 +14,7 @@ const BibliotecaVivencia = lazy(()=> import('../modules/Biblioteca_vivencia'));
 
 const Ejes = () =>{
 
-
+const isSSR = typeof window === "undefined"
 
 
   return(
@@ -22,12 +22,13 @@ const Ejes = () =>{
               <SEO title="Biblioteca Digital"/>
              
               <Router>
+                  {!isSSR && (
              <Suspense fallback={<div>Cargando...</div>}>
         <BibliotecaScreenG path="/biblioteca/general" />
               <BibliotecaScreen path="/biblioteca/:bibliotecaId"/>
               <BibliotecaPlanes path="/biblioteca/planes" />
               <BibliotecaVivencia path="biblioteca/vivencia"/>
-              </Suspense>
+              </Suspense>)}
       </Router>
                   </>
    
