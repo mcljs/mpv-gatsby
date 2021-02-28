@@ -25,10 +25,10 @@ const isSSR = typeof window === "undefined"
 
                     <Router>
               
-                  <BibliotecaScreenG path="/biblioteca/general" />
+                  <BibliotecaScreenG path="/biblioteca" />
               <BibliotecaScreen path="/biblioteca/:bibliotecaId"/>
               <BibliotecaPlanes path="/biblioteca/planes" />
-              <BibliotecaVivencia path="biblioteca/vivencia"/>
+              <BibliotecaVivencia path="/vivencia"/>
            
                    </Router>
                   </Suspense>
