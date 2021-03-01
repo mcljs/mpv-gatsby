@@ -3,6 +3,9 @@ import {FaBuilding} from '@react-icons/all-files/fa/FaBuilding';
 import {CgGym} from '@react-icons/all-files/cg/CgGym';
 import {FaChessKnight} from '@react-icons/all-files/fa/FaChessKnight';
 import {FaChild} from '@react-icons/all-files/fa/FaChild';
+import {GiBookshelf} from '@react-icons/all-files/gi/GiBookshelf';
+import {GiTennisCourt} from '@react-icons/all-files/gi/GiTennisCourt';
+
 
 
 
@@ -25,8 +28,8 @@ export const StatsData = [
     icon: (<FaChessKnight css={`
       color #b6181d;
       `}/>),
-    title: "Infocentro",
-    desc: "Bibliotecas, centro de juegos de mesas para nuestra Juventud.",
+    title: "Juegos de Mesas",
+    desc: "Centro de juegos de mesas para nuestra Juventud.",
   },
 {
     icon: (<FaChild css={`
@@ -34,5 +37,19 @@ export const StatsData = [
       `}/>),
     title: "Parque Recreativo",
     desc: "Para el disfrute de nuestros pequeños de la casa.",
+  },
+{
+    icon: (<GiBookshelf css={`
+      color #b6181d;
+      `}/>),
+    title: "Biblioteca",
+    desc: "Espacio flexible y generador de ideas en donde la lectura es fuente de disfrute, placer, creación e información. ",
+  },
+{
+    icon: (<GiTennisCourt css={`
+      color #b9161c;
+      `}/>),
+    title: "Cancha de uso Múltiples",
+    desc: "Escenario deportivos que concentran las disciplinas de básquetbol, futbolito y vóleibol.",
   },
 ]
