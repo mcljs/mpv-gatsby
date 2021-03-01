@@ -26,7 +26,7 @@ const [email, setEmail] = useState('');
   <EmailContainer>
     <EmailContent>
       <h1>Suscribete al Boletin informativo del Movimiento</h1>
-      <p>Mantenten al dia con nuestras noticias y publicaciones nuevas!</p>
+      <p>Mantente al dia con nuestras noticias y publicaciones nuevas!</p>
       <form action="#">
         <FormWrap>
           <label htmlFor="email">
