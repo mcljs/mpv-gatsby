@@ -31,7 +31,7 @@ const Privacy = () => {
         <SEO title="Grandes Bases de Misiones de Paz" />
       <Hero slides={SliderData}/>
       <MainContent>
-  <p>Para saber de nuestra ubicación ingresa al Estado donde te ubicas conseguiras <strong>"COORDENADAS"</strong>  que te dirige a Google Maps donde podras encontrar la Base de tu preferencia.</p>
+        <p><strong>Conoce mas de nuestras instalaciones y se parte del Movimiento por la Paz y la Vida. </strong></p>
       </MainContent>
 
       {
@@ -40,15 +40,15 @@ const Privacy = () => {
             content={
               `<p><strong>${base.base}</strong></p>
             <p><strong>Dirección: </strong>${base.direccion}</p>
-            <p><strong>Coordenadas: </strong><a href='${base.href}'  target='_blank' rel='noreferrer'>${base.coordenadas}</a></p>
-            <p><strong>Servicios que ofrecen: </strong>${base.estructura}.</p>
+            <p><strong>Coordenadas ID: </strong><a href='${base.href}'  target='_blank' rel='noreferrer'>${base.coordenadas}</a></p>
+            <p><strong>Servicios que ofrece: </strong>${base.estructura}.</p>
             <p><strong>Coordinador(a): </strong>${base.coordinador}.</p>
             </br>
 
       <p><strong>${base.base2}</strong></p>
         <p><strong>Dirección: </strong>${base.direccion2}</p>
-            <p><strong>Coordenadas: </strong><a href='${base.href2}'  target='_blank' rel='noreferrer'>${base.coordenadas2}</a></p>
-            <p><strong>Servicios que ofrecen: </strong>${base.estructura2}.</p>
+            <p><strong>Coordenadas ID: </strong><a href='${base.href2}'  target='_blank' rel='noreferrer'>${base.coordenadas2}</a></p>
+            <p><strong>Servicios que ofrece: </strong>${base.estructura2}.</p>
             <p><strong>Coordinador(a): </strong>${base.coordinador2}.</p>
         </br>
             `}
@@ -61,38 +61,38 @@ const Privacy = () => {
         dataBasePazAragua.map( base => (
           <Accordion key={base.id} title={base.title}
             content={
-              `<p><strong>${base.base}</strong></p>
+              `<p className="inactivo"><strong>${base.base}</strong></p>
             <p><strong>Dirección: </strong>${base.direccion}</p>
-            <p><strong>Coordenadas: </strong><a href='${base.href}'  target='_blank' rel='noreferrer'>${base.coordenadas}</a></p>
-            <p><strong>Servicios que ofrecen: </strong>${base.estructura}.</p>
+            <p><strong>Coordenadas ID: </strong><a href='${base.href}'  target='_blank' rel='noreferrer'>${base.coordenadas}</a></p>
+            <p><strong>Servicios que ofrece: </strong>${base.estructura}.</p>
             <p><strong>Coordinador(a): </strong>${base.coordinador}.</p>
             </br>
 
       <p><strong>${base.base2}</strong></p>
         <p><strong>Dirección: </strong>${base.direccion2}</p>
-            <p><strong>Coordenadas: </strong><a href='${base.href2}'  target='_blank' rel='noreferrer'>${base.coordenadas2}</a></p>
-            <p><strong>Servicios que ofrecen: </strong>${base.estructura2}.</p>
+            <p><strong>Coordenadas ID: </strong><a href='${base.href2}'  target='_blank' rel='noreferrer'>${base.coordenadas2}</a></p>
+            <p><strong>Servicios que ofrece: </strong>${base.estructura2}.</p>
             <p><strong>Coordinador(a): </strong>${base.coordinador2}.</p>
         </br>
 
       <p><strong>${base.base3}</strong></p>
         <p><strong>Dirección: </strong>${base.direccion3}</p>
-            <p><strong>Coordenadas: </strong><a href='${base.href3}'  target='_blank' rel='noreferrer'>${base.coordenadas3}</a></p>
-            <p><strong>Servicios que ofrecen: </strong>${base.estructura3}.</p>
+            <p><strong>Coordenadas ID: </strong><a href='${base.href3}'  target='_blank' rel='noreferrer'>${base.coordenadas3}</a></p>
+            <p><strong>Servicios que ofrece: </strong>${base.estructura3}.</p>
             <p><strong>Coordinador(a): </strong>${base.coordinador3}.</p>
         </br>
 
     <p><strong>${base.base4}</strong></p>
         <p><strong>Dirección: </strong>${base.direccion4}</p>
-            <p><strong>Coordenadas: </strong><a href='${base.href4}'  target='_blank' rel='noreferrer'>${base.coordenadas4}</a></p>
-            <p><strong>Servicios que ofrecen: </strong>${base.estructura4}.</p>
+            <p><strong>Coordenadas ID: </strong><a href='${base.href4}'  target='_blank' rel='noreferrer'>${base.coordenadas4}</a></p>
+            <p><strong>Servicios que ofrece: </strong>${base.estructura4}.</p>
             <p><strong>Coordinador(a): </strong>${base.coordinador4}.</p>
         </br>
 
     <p><strong>${base.base5}</strong></p>
         <p><strong>Dirección: </strong>${base.direccion5}</p>
-            <p><strong>Coordenadas: </strong><a href='${base.href5}'  target='_blank' rel='noreferrer'>${base.coordenadas5}</a></p>
-            <p><strong>Servicios que ofrecen: </strong>${base.estructura5}.</p>
+            <p><strong>Coordenadas ID: </strong><a href='${base.href5}'  target='_blank' rel='noreferrer'>${base.coordenadas5}</a></p>
+            <p><strong>Servicios que ofrece: </strong>${base.estructura5}.</p>
             <p><strong>Coordinador(a): </strong>${base.coordinador5}.</p>
         </br>
 
@@ -108,29 +108,29 @@ const Privacy = () => {
             content={
               `<p><strong>${base.base}</strong></p>
             <p><strong>Dirección: </strong>${base.direccion}</p>
-            <p><strong>Coordenadas: </strong><a href='${base.href}'  target='_blank' rel='noreferrer'>${base.coordenadas}</a></p>
-            <p><strong>Servicios que ofrecen: </strong>${base.estructura}.</p>
+            <p><strong>Coordenadas ID: </strong><a href='${base.href}'  target='_blank' rel='noreferrer'>${base.coordenadas}</a></p>
+            <p><strong>Servicios que ofrece: </strong>${base.estructura}.</p>
             <p><strong>Coordinador(a): </strong>${base.coordinador}.</p>
             </br>
 
       <p><strong>${base.base2}</strong></p>
         <p><strong>Dirección: </strong>${base.direccion2}</p>
-            <p><strong>Coordenadas: </strong><a href='${base.href2}'  target='_blank' rel='noreferrer'>${base.coordenadas2}</a></p>
-            <p><strong>Servicios que ofrecen: </strong>${base.estructura2}.</p>
+            <p><strong>Coordenadas ID: </strong><a href='${base.href2}'  target='_blank' rel='noreferrer'>${base.coordenadas2}</a></p>
+            <p><strong>Servicios que ofrece: </strong>${base.estructura2}.</p>
             <p><strong>Coordinador(a): </strong>${base.coordinador2}.</p>
         </br>
 
       <p><strong>${base.base3}</strong></p>
         <p><strong>Dirección: </strong>${base.direccion3}</p>
-            <p><strong>Coordenadas: </strong><a href='${base.href3}'  target='_blank' rel='noreferrer'>${base.coordenadas3}</a></p>
-            <p><strong>Servicios que ofrecen: </strong>${base.estructura3}.</p>
+            <p><strong>Coordenadas ID: </strong><a href='${base.href3}'  target='_blank' rel='noreferrer'>${base.coordenadas3}</a></p>
+            <p><strong>Servicios que ofrece: </strong>${base.estructura3}.</p>
             <p><strong>Coordinador(a): </strong>${base.coordinador3}.</p>
         </br>
 
     <p><strong>${base.base4}</strong></p>
         <p><strong>Dirección: </strong>${base.direccion4}</p>
-            <p><strong>Coordenadas: </strong><a href='${base.href4}'  target='_blank' rel='noreferrer'>${base.coordenadas4}</a></p>
-            <p><strong>Servicios que ofrecen: </strong>${base.estructura4}.</p>
+            <p><strong>Coordenadas ID: </strong><a href='${base.href4}'  target='_blank' rel='noreferrer'>${base.coordenadas4}</a></p>
+            <p><strong>Servicios que ofrece: </strong>${base.estructura4}.</p>
             <p><strong>Coordinador(a): </strong>${base.coordinador4}.</p>
         </br>
              `}
@@ -146,38 +146,43 @@ const Privacy = () => {
             content={
               `<p><strong>${base.base}</strong></p>
             <p><strong>Dirección: </strong>${base.direccion}</p>
-            <p><strong>Coordenadas: </strong><a href='${base.href}'  target='_blank' rel='noreferrer'>${base.coordenadas}</a></p>
-            <p><strong>Servicios que ofrecen: </strong>${base.estructura}.</p>
+            <p><strong>Coordenadas ID: </strong><a href='${base.href}'  target='_blank' rel='noreferrer'>${base.coordenadas}</a></p>
+            <p><strong>Servicios que ofrece: </strong>${base.estructura}.</p>
             <p><strong>Coordinador(a): </strong>${base.coordinador}.</p>
             </br>
 
       <p><strong>${base.base2}</strong></p>
         <p><strong>Dirección: </strong>${base.direccion2}</p>
-            <p><strong>Coordenadas: </strong><a href='${base.href2}'  target='_blank' rel='noreferrer'>${base.coordenadas2}</a></p>
-            <p><strong>Servicios que ofrecen: </strong>${base.estructura2}.</p>
+            <p><strong>Coordenadas ID: </strong><a href='${base.href2}'  target='_blank' rel='noreferrer'>${base.coordenadas2}</a></p>
+            <p><strong>Servicios que ofrece: </strong>${base.estructura2}.</p>
             <p><strong>Coordinador(a): </strong>${base.coordinador2}.</p>
         </br>
 
       <p><strong>${base.base3}</strong></p>
         <p><strong>Dirección: </strong>${base.direccion3}</p>
-            <p><strong>Coordenadas: </strong><a href='${base.href3}'  target='_blank' rel='noreferrer'>${base.coordenadas3}</a></p>
-            <p><strong>Servicios que ofrecen: </strong>${base.estructura3}.</p>
+            <p><strong>Coordenadas ID: </strong><a href='${base.href3}'  target='_blank' rel='noreferrer'>${base.coordenadas3}</a></p>
+            <p><strong>Servicios que ofrece: </strong>${base.estructura3}.</p>
             <p><strong>Coordinador(a): </strong>${base.coordinador3}.</p>
         </br>
 
     <p><strong>${base.base4}</strong></p>
         <p><strong>Dirección: </strong>${base.direccion4}</p>
-            <p><strong>Coordenadas: </strong><a href='${base.href4}'  target='_blank' rel='noreferrer'>${base.coordenadas4}</a></p>
-            <p><strong>Servicios que ofrecen: </strong>${base.estructura4}.</p>
+            <p><strong>Coordenadas ID: </strong><a href='${base.href4}'  target='_blank' rel='noreferrer'>${base.coordenadas4}</a></p>
+            <p><strong>Servicios que ofrece: </strong>${base.estructura4}.</p>
             <p><strong>Coordinador(a): </strong>${base.coordinador4}.</p>
         </br>
 
     <p><strong>${base.base5}</strong></p>
         <p><strong>Dirección: </strong>${base.direccion5}</p>
-            <p><strong>Coordenadas: </strong><a href='${base.href5}'  target='_blank' rel='noreferrer'>${base.coordenadas5}</a></p>
-            <p><strong>Servicios que ofrecen: </strong>${base.estructura5}.</p>
+            <p><strong>Coordenadas ID: </strong><a href='${base.href5}'  target='_blank' rel='noreferrer'>${base.coordenadas5}</a></p>
+            <p><strong>Servicios que ofrece: </strong>${base.estructura5}.</p>
             <p><strong>Coordinador(a): </strong>${base.coordinador5}.</p>
         </br>
+
+    <p><h6>(Inactiva)</h6> <strong>${base.base6} </strong></p>
+        <p><strong>Dirección: </strong>${base.direccion6}</p>
+            <p><strong>Coordenadas ID: </strong><a href='${base.href6}'  target='_blank' rel='noreferrer'>${base.coordenadas6}</a></p>
+         
 
             `}
           />
@@ -190,8 +195,8 @@ const Privacy = () => {
             content={
               `<p><strong>${base.base}</strong></p>
             <p><strong>Dirección: </strong>${base.direccion}</p>
-            <p><strong>Coordenadas: </strong><a href='${base.href}'  target='_blank' rel='noreferrer'>${base.coordenadas}</a></p>
-            <p><strong>Servicios que ofrecen: </strong>${base.estructura}.</p>
+            <p><strong>Coordenadas ID: </strong><a href='${base.href}'  target='_blank' rel='noreferrer'>${base.coordenadas}</a></p>
+            <p><strong>Servicios que ofrece: </strong>${base.estructura}.</p>
             <p><strong>Coordinador(a): </strong>${base.coordinador}.</p>
             </br>
 
@@ -200,6 +205,27 @@ const Privacy = () => {
         ) )
       }
 
+     <Accordion title="LA GUAIRA"
+            content={`
+       <p><h6>(Inactiva)</h6> <strong>GRAN BASE DE MISIONES PAZ "MAMO" </strong></p>
+        <p><strong>Dirección: </strong>Municipio Vargas. Parroquia Catia la Mar, Barrio Mari Apaches</p>
+            <p><strong>Coordenadas ID: </strong><a href=''  target='_blank' rel='noreferrer'>10.591058559791708, -67.05556387381132</a></p>
+</br>
+
+  <p><h6>(Inactiva)</h6> <strong>GRAN BASE DE MISIONES DE PAZ "MARE ABAJO" </strong></p>
+        <p><strong>Dirección: </strong>Municipio Vargas. Parroquia Maiquetia, Sector Mare Abajo</p>
+            <p><strong>Coordenadas ID: </strong><a href=''  target='_blank' rel='noreferrer'>10.606946139331056, -66.97700658915689</a></p>
+</br>
+
+  <p><h6>(Inactiva)</h6> <strong>GRAN BASE DE MISIONES DE PAZ "PUNTA DE MULATOS" </strong></p>
+        <p><strong>Dirección: </strong>Municipio Vargas. Parroquia La Guaira, Sector Punta de Mulatos</p>
+            <p><strong>Coordenadas ID: </strong><a href=''  target='_blank' rel='noreferrer'>10.602423031838562, -66.92703070270817</a></p>
+</br>
+
+               `}
+          />
+
+
 
 {
         dataBasePazMerida.map( base => (
@@ -207,22 +233,22 @@ const Privacy = () => {
             content={
               `<p><strong>${base.base}</strong></p>
             <p><strong>Dirección: </strong>${base.direccion}</p>
-            <p><strong>Coordenadas: </strong><a href='${base.href}'  target='_blank' rel='noreferrer'>${base.coordenadas}</a></p>
-            <p><strong>Servicios que ofrecen: </strong>${base.estructura}.</p>
+            <p><strong>Coordenadas ID: </strong><a href='${base.href}'  target='_blank' rel='noreferrer'>${base.coordenadas}</a></p>
+            <p><strong>Servicios que ofrece: </strong>${base.estructura}.</p>
             <p><strong>Coordinador(a): </strong>${base.coordinador}.</p>
             </br>
 
       <p><strong>${base.base2}</strong></p>
         <p><strong>Dirección: </strong>${base.direccion2}</p>
-            <p><strong>Coordenadas: </strong><a href='${base.href2}'  target='_blank' rel='noreferrer'>${base.coordenadas2}</a></p>
-            <p><strong>Servicios que ofrecen: </strong>${base.estructura2}.</p>
+            <p><strong>Coordenadas ID: </strong><a href='${base.href2}'  target='_blank' rel='noreferrer'>${base.coordenadas2}</a></p>
+            <p><strong>Servicios que ofrece: </strong>${base.estructura2}.</p>
             <p><strong>Coordinador(a): </strong>${base.coordinador2}.</p>
         </br>
 
       <p><strong>${base.base3}</strong></p>
         <p><strong>Dirección: </strong>${base.direccion3}</p>
-            <p><strong>Coordenadas: </strong><a href='${base.href3}'  target='_blank' rel='noreferrer'>${base.coordenadas3}</a></p>
-            <p><strong>Servicios que ofrecen: </strong>${base.estructura3}.</p>
+            <p><strong>Coordenadas ID: </strong><a href='${base.href3}'  target='_blank' rel='noreferrer'>${base.coordenadas3}</a></p>
+            <p><strong>Servicios que ofrece: </strong>${base.estructura3}.</p>
             <p><strong>Coordinador(a): </strong>${base.coordinador3}.</p>
         </br>
             `}
@@ -238,29 +264,29 @@ const Privacy = () => {
             content={
               `<p><strong>${base.base}</strong></p>
             <p><strong>Dirección: </strong>${base.direccion}</p>
-            <p><strong>Coordenadas: </strong><a href='${base.href}'  target='_blank' rel='noreferrer'>${base.coordenadas}</a></p>
-            <p><strong>Servicios que ofrecen: </strong>${base.estructura}.</p>
+            <p><strong>Coordenadas ID: </strong><a href='${base.href}'  target='_blank' rel='noreferrer'>${base.coordenadas}</a></p>
+            <p><strong>Servicios que ofrece: </strong>${base.estructura}.</p>
             <p><strong>Coordinador(a): </strong>${base.coordinador}.</p>
             </br>
 
       <p><strong>${base.base2}</strong></p>
         <p><strong>Dirección: </strong>${base.direccion2}</p>
-            <p><strong>Coordenadas: </strong><a href='${base.href2}'  target='_blank' rel='noreferrer'>${base.coordenadas2}</a></p>
-            <p><strong>Servicios que ofrecen: </strong>${base.estructura2}.</p>
+            <p><strong>Coordenadas ID: </strong><a href='${base.href2}'  target='_blank' rel='noreferrer'>${base.coordenadas2}</a></p>
+            <p><strong>Servicios que ofrece: </strong>${base.estructura2}.</p>
             <p><strong>Coordinador(a): </strong>${base.coordinador2}.</p>
         </br>
 
       <p><strong>${base.base3}</strong></p>
         <p><strong>Dirección: </strong>${base.direccion3}</p>
-            <p><strong>Coordenadas: </strong><a href='${base.href3}'  target='_blank' rel='noreferrer'>${base.coordenadas3}</a></p>
-            <p><strong>Servicios que ofrecen: </strong>${base.estructura3}.</p>
+            <p><strong>Coordenadas ID: </strong><a href='${base.href3}'  target='_blank' rel='noreferrer'>${base.coordenadas3}</a></p>
+            <p><strong>Servicios que ofrece: </strong>${base.estructura3}.</p>
             <p><strong>Coordinador(a): </strong>${base.coordinador3}.</p>
         </br>
 
     <p><strong>${base.base4}</strong></p>
         <p><strong>Dirección: </strong>${base.direccion4}</p>
-            <p><strong>Coordenadas: </strong><a href='${base.href4}'  target='_blank' rel='noreferrer'>${base.coordenadas4}</a></p>
-            <p><strong>Servicios que ofrecen: </strong>${base.estructura4}.</p>
+            <p><strong>Coordenadas ID: </strong><a href='${base.href4}'  target='_blank' rel='noreferrer'>${base.coordenadas4}</a></p>
+            <p><strong>Servicios que ofrece: </strong>${base.estructura4}.</p>
             <p><strong>Coordinador(a): </strong>${base.coordinador4}.</p>
         </br>
              `}
@@ -274,22 +300,22 @@ const Privacy = () => {
             content={
               `<p><strong>${base.base}</strong></p>
             <p><strong>Dirección: </strong>${base.direccion}</p>
-            <p><strong>Coordenadas: </strong><a href='${base.href}'  target='_blank' rel='noreferrer'>${base.coordenadas}</a></p>
-            <p><strong>Servicios que ofrecen: </strong>${base.estructura}.</p>
+            <p><strong>Coordenadas ID: </strong><a href='${base.href}'  target='_blank' rel='noreferrer'>${base.coordenadas}</a></p>
+            <p><strong>Servicios que ofrece: </strong>${base.estructura}.</p>
             <p><strong>Coordinador(a): </strong>${base.coordinador}.</p>
             </br>
 
       <p><strong>${base.base2}</strong></p>
         <p><strong>Dirección: </strong>${base.direccion2}</p>
-            <p><strong>Coordenadas: </strong><a href='${base.href2}'  target='_blank' rel='noreferrer'>${base.coordenadas2}</a></p>
-            <p><strong>Servicios que ofrecen: </strong>${base.estructura2}.</p>
+            <p><strong>Coordenadas ID: </strong><a href='${base.href2}'  target='_blank' rel='noreferrer'>${base.coordenadas2}</a></p>
+            <p><strong>Servicios que ofrece: </strong>${base.estructura2}.</p>
             <p><strong>Coordinador(a): </strong>${base.coordinador2}.</p>
         </br>
 
       <p><strong>${base.base3}</strong></p>
         <p><strong>Dirección: </strong>${base.direccion3}</p>
-            <p><strong>Coordenadas: </strong><a href='${base.href3}'  target='_blank' rel='noreferrer'>${base.coordenadas3}</a></p>
-            <p><strong>Servicios que ofrecen: </strong>${base.estructura3}.</p>
+            <p><strong>Coordenadas ID: </strong><a href='${base.href3}'  target='_blank' rel='noreferrer'>${base.coordenadas3}</a></p>
+            <p><strong>Servicios que ofrece: </strong>${base.estructura3}.</p>
             <p><strong>Coordinador(a): </strong>${base.coordinador3}.</p>
         </br>
             `}
@@ -303,15 +329,15 @@ const Privacy = () => {
             content={
               `<p><strong>${base.base}</strong></p>
             <p><strong>Dirección: </strong>${base.direccion}</p>
-            <p><strong>Coordenadas: </strong><a href='${base.href}'  target='_blank' rel='noreferrer'>${base.coordenadas}</a></p>
-            <p><strong>Servicios que ofrecen: </strong>${base.estructura}.</p>
+            <p><strong>Coordenadas ID: </strong><a href='${base.href}'  target='_blank' rel='noreferrer'>${base.coordenadas}</a></p>
+            <p><strong>Servicios que ofrece: </strong>${base.estructura}.</p>
             <p><strong>Coordinador(a): </strong>${base.coordinador}.</p>
             </br>
 
       <p><strong>${base.base2}</strong></p>
         <p><strong>Dirección: </strong>${base.direccion2}</p>
-            <p><strong>Coordenadas: </strong><a href='${base.href2}'  target='_blank' rel='noreferrer'>${base.coordenadas2}</a></p>
-            <p><strong>Servicios que ofrecen: </strong>${base.estructura2}.</p>
+            <p><strong>Coordenadas ID: </strong><a href='${base.href2}'  target='_blank' rel='noreferrer'>${base.coordenadas2}</a></p>
+            <p><strong>Servicios que ofrece: </strong>${base.estructura2}.</p>
             <p><strong>Coordinador(a): </strong>${base.coordinador2}.</p>
         </br>
 
@@ -327,15 +353,15 @@ const Privacy = () => {
             content={
               `<p><strong>${base.base}</strong></p>
             <p><strong>Dirección: </strong>${base.direccion}</p>
-            <p><strong>Coordenadas: </strong><a href='${base.href}'  target='_blank' rel='noreferrer'>${base.coordenadas}</a></p>
-            <p><strong>Servicios que ofrecen: </strong>${base.estructura}.</p>
+            <p><strong>Coordenadas ID: </strong><a href='${base.href}'  target='_blank' rel='noreferrer'>${base.coordenadas}</a></p>
+            <p><strong>Servicios que ofrece: </strong>${base.estructura}.</p>
             <p><strong>Coordinador(a): </strong>${base.coordinador}.</p>
             </br>
 
       <p><strong>${base.base2}</strong></p>
         <p><strong>Dirección: </strong>${base.direccion2}</p>
-            <p><strong>Coordenadas: </strong><a href='${base.href2}'  target='_blank' rel='noreferrer'>${base.coordenadas2}</a></p>
-            <p><strong>Servicios que ofrecen: </strong>${base.estructura2}.</p>
+            <p><strong>Coordenadas ID: </strong><a href='${base.href2}'  target='_blank' rel='noreferrer'>${base.coordenadas2}</a></p>
+            <p><strong>Servicios que ofrece: </strong>${base.estructura2}.</p>
             <p><strong>Coordinador(a): </strong>${base.coordinador2}.</p>
         </br>
 
@@ -351,15 +377,15 @@ const Privacy = () => {
             content={
               `<p><strong>${base.base}</strong></p>
             <p><strong>Dirección: </strong>${base.direccion}</p>
-            <p><strong>Coordenadas: </strong><a href='${base.href}'  target='_blank' rel='noreferrer'>${base.coordenadas}</a></p>
-            <p><strong>Servicios que ofrecen: </strong>${base.estructura}.</p>
+            <p><strong>Coordenadas ID: </strong><a href='${base.href}'  target='_blank' rel='noreferrer'>${base.coordenadas}</a></p>
+            <p><strong>Servicios que ofrece: </strong>${base.estructura}.</p>
             <p><strong>Coordinador(a): </strong>${base.coordinador}.</p>
             </br>
 
       <p><strong>${base.base2}</strong></p>
         <p><strong>Dirección: </strong>${base.direccion2}</p>
-            <p><strong>Coordenadas: </strong><a href='${base.href2}'  target='_blank' rel='noreferrer'>${base.coordenadas2}</a></p>
-            <p><strong>Servicios que ofrecen: </strong>${base.estructura2}.</p>
+            <p><strong>Coordenadas ID: </strong><a href='${base.href2}'  target='_blank' rel='noreferrer'>${base.coordenadas2}</a></p>
+            <p><strong>Servicios que ofrece: </strong>${base.estructura2}.</p>
             <p><strong>Coordinador(a): </strong>${base.coordinador2}.</p>
         </br>
 
@@ -375,29 +401,29 @@ const Privacy = () => {
             content={
               `<p><strong>${base.base}</strong></p>
             <p><strong>Dirección: </strong>${base.direccion}</p>
-            <p><strong>Coordenadas: </strong><a href='${base.href}'  target='_blank' rel='noreferrer'>${base.coordenadas}</a></p>
-            <p><strong>Servicios que ofrecen: </strong>${base.estructura}.</p>
+            <p><strong>Coordenadas ID: </strong><a href='${base.href}'  target='_blank' rel='noreferrer'>${base.coordenadas}</a></p>
+            <p><strong>Servicios que ofrece: </strong>${base.estructura}.</p>
             <p><strong>Coordinador(a): </strong>${base.coordinador}.</p>
             </br>
 
       <p><strong>${base.base2}</strong></p>
         <p><strong>Dirección: </strong>${base.direccion2}</p>
-            <p><strong>Coordenadas: </strong><a href='${base.href2}'  target='_blank' rel='noreferrer'>${base.coordenadas2}</a></p>
-            <p><strong>Servicios que ofrecen: </strong>${base.estructura2}.</p>
+            <p><strong>Coordenadas ID: </strong><a href='${base.href2}'  target='_blank' rel='noreferrer'>${base.coordenadas2}</a></p>
+            <p><strong>Servicios que ofrece: </strong>${base.estructura2}.</p>
             <p><strong>Coordinador(a): </strong>${base.coordinador2}.</p>
         </br>
 
       <p><strong>${base.base3}</strong></p>
         <p><strong>Dirección: </strong>${base.direccion3}</p>
-            <p><strong>Coordenadas: </strong><a href='${base.href3}'  target='_blank' rel='noreferrer'>${base.coordenadas3}</a></p>
-            <p><strong>Servicios que ofrecen: </strong>${base.estructura3}.</p>
+            <p><strong>Coordenadas ID: </strong><a href='${base.href3}'  target='_blank' rel='noreferrer'>${base.coordenadas3}</a></p>
+            <p><strong>Servicios que ofrece: </strong>${base.estructura3}.</p>
             <p><strong>Coordinador(a): </strong>${base.coordinador3}.</p>
         </br>
 
     <p><strong>${base.base4}</strong></p>
         <p><strong>Dirección: </strong>${base.direccion4}</p>
-            <p><strong>Coordenadas: </strong><a href='${base.href4}'  target='_blank' rel='noreferrer'>${base.coordenadas4}</a></p>
-            <p><strong>Servicios que ofrecen: </strong>${base.estructura4}.</p>
+            <p><strong>Coordenadas ID: </strong><a href='${base.href4}'  target='_blank' rel='noreferrer'>${base.coordenadas4}</a></p>
+            <p><strong>Servicios que ofrece: </strong>${base.estructura4}.</p>
             <p><strong>Coordinador(a): </strong>${base.coordinador4}.</p>
         </br>
              `}

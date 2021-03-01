@@ -33,7 +33,7 @@ export default function NavBar() {
                         <NavbarContainer>
                           <NavMenuSecondary>
                               <NavLinkSecondary to='/gbmp' active={scroll} >
-                                  Grandes Bases
+                                  Grandes Bases de Paz
                               </NavLinkSecondary>
                            <NavLinkSecondary to="/eda" active={scroll}>
                                  Ejes de Acción
@@ -96,7 +96,7 @@ export default function NavBar() {
                         <NavLinks to="/search"><FaSearch/></NavLinks>
                     </NavItem>
                         <NavLinksReponsive to="/gbmp">
-                            Grandes Bases
+                            Grandes Bases de Paz
                         </NavLinksReponsive>
                           <NavLinksReponsive to="/eda">
                             Ejes de Acción

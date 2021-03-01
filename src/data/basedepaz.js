@@ -155,6 +155,12 @@ export const dataBasePazDistritoCapital = [
     'coordenadas5': '10.494335677593549, -66.91859001613888',
     'estructura5': 'Salón de reuniones y conferencia, Comedor escuela "Mama Rosa", Sala Situacional, Juego de Mesa, Biblioteca Deportiva y Nutricional, Sala de Musculación, Parto Humanizado, Deporte de combate, Escuela de Esgrima, Escuela de Tenis de mesa, Cancha de uso Múltiples, Escuela Corazón Urbano, Socio Productivo',
     'coordinador5': 'Yholidee Camacho',
+
+
+    'base6': 'GRAN BASE DE PAZ LA VEGA',
+    'direccion6':'Municipio Libertador, Parroquia La Vega, Sector Quinta La Veguita',
+    'href6': 'https://cutt.ly/cklR8bw',
+    'coordenadas6': '10.474253894163354, -66.94527475846628',    
   }
 ]
 

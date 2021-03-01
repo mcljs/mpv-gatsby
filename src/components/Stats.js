@@ -6,7 +6,7 @@ import { StatsData } from '../data/StatsData';
 const Stats = () => {
   return (
     <StatsContainer>
-      <Heading>GRANDES BASES - QUE OFRECEMOS?</Heading>
+      <Heading>Grandes Bases de Paz - Que ofrecemos?</Heading>
       <Wrapper>
         {StatsData.map((item,index)=>{
           return(

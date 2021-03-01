@@ -7,6 +7,10 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.inactivo{
+    color: red;
+}
+
 .nosotros{
     background: url("../images/img-2.jpg")  center center/cover no-repeat;
     height: 100vh;
