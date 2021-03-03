@@ -29,7 +29,12 @@ module.exports = {
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-social-cards`,
     // nned to be  the first to work with gatsby-remark-images
-
+  {
+    resolve: `gatsby-plugin-postcss`,
+    options: {
+      postCssPlugins: [require(`postcss-preset-env`)({ stage: 0 })],
+    },
+  },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
