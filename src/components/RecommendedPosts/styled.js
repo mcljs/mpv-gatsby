@@ -2,7 +2,7 @@ import styled from "styled-components"
 import media from 'styled-media-query'
 import {Link }from 'gatsby'
 
-import transitions from '../styles/transitions';
+
 
 export const RecommendedWrapper = styled.section`
   border-bottom: 1px solid #38444d;
@@ -19,7 +19,7 @@ export const RecommendedLink = styled(Link)`
   display: flex;
   padding: 3rem;
   text-decoration: none;
-  transition: ${transitions.BACKGROUND};
+
   width: 50%;
   ${media.lessThan('large')`
     padding: 2rem 1rem;

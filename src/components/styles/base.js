@@ -41,7 +41,7 @@ export const PostDescription = styled.h2`
 export const PostDate = styled.p`
  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 1.1rem;
-  font-weight: 100;
+  font-weight: 200;
   padding: 0 1.4rem;
   ${media.lessThan('large')`
     padding: 0 1rem;
@@ -79,6 +79,7 @@ export const MainContent = styled.section`
   }
   p {
     margin: 0 auto 1.6rem;
+    font-weight: 400;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   }
   h1,
