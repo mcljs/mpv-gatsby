@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components';
-import Img from 'gatsby-image';
+import { GatsbyImage} from "gatsby-plugin-image"
 import {FaRegLightbulb} from 'react-icons/fa';
 import {IoMdCheckmarkCircleOutline  } from 'react-icons/io';
 import {graphql, useStaticQuery} from 'gatsby';
@@ -14,9 +14,7 @@ const Muchachada = () =>{
     edges {
       node {
         childImageSharp {
-          fluid {
-            ...GatsbyImageSharpFluid
-          }
+           gatsbyImageData(height:400)
         }
       }
     }
@@ -57,7 +55,7 @@ const Muchachada = () =>{
         <ColumnTwo>
           {data.allFile.edges.map((image,key) =>(
 
-            <Images key={key} fluid={image.node.childImageSharp.fluid}/> 
+              <Images key={key} image={image.node.childImageSharp.gatsbyImageData}/>   
           ))}
       
         </ColumnTwo>
@@ -123,7 +121,7 @@ const ColumnTwo = styled.div`
     grid-template-columns: 1fr;
   }
 `
-const Images = styled(Img)`
+const Images = styled(GatsbyImage)`
   border-radius: 10px;
   height: 100%;
 `

@@ -1,6 +1,6 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
-import Img from "gatsby-image";
+import {GatsbyImage} from "gatsby-plugin-image";
 import "./image.css"
 
 
@@ -13,9 +13,7 @@ const Image = () => {
         node {
           base
           childImageSharp {
-            fluid(maxHeight: 600, maxWidth: 600) {
-              ...GatsbyImageSharpFluid
-            }
+            gatsbyImageData(height:600,width:600)
           }
         }
       }
@@ -28,9 +26,9 @@ const Image = () => {
         <h1 style={{textAlign: 'center'}}>Galeria</h1>
         <div className="image-grid">
             {data.allFile.edges.map((image,key) =>(
-                <Img key={key}
+                <GatsbyImage key={key}
                 className="image-item"
-                fluid={image.node.childImageSharp.fluid}
+                image={image.node.childImageSharp.gatsbyImageData}
                 alt={image.node.base.split('.'[0])}
                 />
             ))} 
