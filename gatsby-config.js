@@ -28,7 +28,7 @@ module.exports = {
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-social-cards`,
-    `gatsby-plugin-image`
+    `gatsby-plugin-image`,
     // nned to be  the first to work with gatsby-remark-images
   {
     resolve: `gatsby-plugin-postcss`,
