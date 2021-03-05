@@ -15,7 +15,7 @@ export const StatsData = [
       color #b9161c;
       `}/>),
     title: "Gran Base de Paz",
-    desc: "Instalacion con calidad para la practica de actividades deportivas, recreativas y culturales.",
+    desc: "Instalacion con calidad para la practica de actividades deportivas, recreativas, culturales entre otras.",
   },
 {
     icon: (<CgGym css={`
@@ -50,6 +50,6 @@ export const StatsData = [
       color #b9161c;
       `}/>),
     title: "Cancha de uso Múltiples",
-    desc: "Escenario deportivos que concentran las disciplinas de básquetbol, futbolito y vóleibol.",
+    desc: "Escenario deportivos que concentran las disciplinas de básquetbol, futbolito, futbol sala, vóleibol entre otras.",
   },
 ]
