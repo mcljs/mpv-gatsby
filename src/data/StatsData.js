@@ -28,7 +28,7 @@ export const StatsData = [
     icon: (<FaChessKnight css={`
       color #b6181d;
       `}/>),
-    title: "Juegos de Mesas",
+    title: "Juegos de Mesa",
     desc: "Centro de juegos de mesas para nuestra Juventud.",
   },
 {
@@ -49,7 +49,7 @@ export const StatsData = [
     icon: (<GiTennisCourt css={`
       color #b9161c;
       `}/>),
-    title: "Cancha de uso Múltiples",
+    title: "Cancha de usos Múltiples",
     desc: "Escenario deportivos que concentran las disciplinas de básquetbol, futbolito, futbol sala, vóleibol entre otras.",
   },
 ]
