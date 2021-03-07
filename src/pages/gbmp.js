@@ -3,7 +3,7 @@ import Layout from '../components/layout';
 import SEO from '../components/Seo';
 import '../../src/components/layout.css';
 import { MainContent } from '../components/styles/base';
-import 'bootstrap/dist/css/bootstrap.min.css';
+//import 'bootstrap/dist/css/bootstrap.min.css';
 import Accordion from '../components/Accordion/Acoordion';
 //import {Table} from 'react-bootstrap';
 import Hero from '../components/Hero/Hero';
