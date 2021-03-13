@@ -4,7 +4,7 @@ date: 2021-03-13 17:54:22
 image: /assets/img/2021-03-13-inaguracion-salon-de-baile-corazon-urbano/img-1.jpg
 title: Alexander 'Mimou' Vargas inauguró salón para los bailarines de calle: 'Corazón Urbano'
 description: null
-twitter_text: Alexander 'Mimou' Vargas continúa inaugurando Farmacias por la Paz y la Vida en Petare
+twitter_text: Alexander 'Mimou' Vargas inauguró salón para los bailarines de calle: 'Corazón Urbano'
 category: null
 timeToRead: 2 minutos de lectura
 ---
