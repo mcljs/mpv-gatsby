@@ -24,7 +24,7 @@ module.exports = {
         },
     },
     `gatsby-plugin-mdx`,
-
+    `gatsby-plugin-gatsby-cloud`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-social-cards`,
