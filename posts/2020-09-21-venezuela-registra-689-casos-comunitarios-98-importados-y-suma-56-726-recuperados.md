@@ -56,7 +56,7 @@ Por otra parte, lamentó informar el fallecimiento de ocho personas por la infec
 - 2 hombres de 48 y 68 años respectivamente en Zulia
 - 1 hombre de 74 y 1 mujer de 66 años en Apure
 - 1 mujer de 72 años en Lara
-- 1 mujer de 48 años en Sucre. 
+- 1 mujer de 48 años en Sucre.
 
 El ministro Ñáñez instó al pueblo a no bajar la guardia en cuanto al uso del tapabocas y del distanciamiento saludable, puesto que son dos garantías de vida.
 
