@@ -22,7 +22,7 @@ import Share from '../components/Share'
         />
       <S.PostHeader>
         <S.PostDate>
-          {post.frontmatter.date} • {post.timeToRead} min de lectura
+          {post.frontmatter.date} 
         </S.PostDate>
         <S.PostTitle>{post.frontmatter.title}</S.PostTitle>
         <S.PostDescription>{post.frontmatter.description}</S.PostDescription>
@@ -30,7 +30,7 @@ import Share from '../components/Share'
       <S.MainContent>
         <div dangerouslySetInnerHTML={{ __html: post.html }}></div>
         <Share
-          url={`https://movimientoporlapazylavida.netlify.app${post.fields.slug}`}
+          url={`https://movimientoporlapazylavida.tk${post.fields.slug}`}
 title={title}
       twitterHandle={twitterHandle}
         />
