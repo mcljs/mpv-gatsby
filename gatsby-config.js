@@ -58,7 +58,15 @@ module.exports = {
         path: `${__dirname}/posts`,
       },
     },
-
+{
+      resolve: `gatsby-plugin-nprogress`,
+      options: {
+        // Setting a color is optional.
+        color: "#e41e25",
+        // Disable the loading spinner.
+        showSpinner: true,
+      },
+    },
     {
       resolve: `gatsby-transformer-remark`,
       options: {
