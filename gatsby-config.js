@@ -17,6 +17,20 @@ module.exports = {
         anonymize: true,
       },
     },
+{
+      resolve: `gatsby-plugin-webfonts`,
+      options: {
+        fonts: {
+          google: [
+            {
+              family: "Roboto",
+              variants: ["400", "700"],
+            },
+            { family: "Open Sans" },
+          ],
+        },
+      },
+    },
  {
         resolve: 'gatsby-plugin-mailchimp',
         options: {

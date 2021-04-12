@@ -33,6 +33,7 @@
     "gatsby-plugin-social-cards": "^0.5.17",
     "gatsby-plugin-styled-components": "^4.0.0",
     "gatsby-plugin-transition-link": "^1.20.5",
+    "gatsby-plugin-webfonts": "^2.1.0",
     "gatsby-remark-images": "^4.0.0",
     "gatsby-remark-lazy-load": "^1.0.2",
     "gatsby-remark-prismjs": "^4.0.0",
