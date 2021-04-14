@@ -16,7 +16,7 @@ function HeroSection(){
                 <Link to={url_twitter}>
                     <Button fontBig big primary>
          
-        SIGUENOS @ <FaTwitter style={{textAlign: 'right'}}></FaTwitter>
+        SIGUENOS <FaTwitter style={{textAlign: 'right'}}></FaTwitter>
     
             </Button>
                 </Link>

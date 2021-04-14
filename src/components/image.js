@@ -8,7 +8,8 @@ import "./image.css"
 const Image = () => {
   const data = useStaticQuery(graphql`
   query {
-    allFile(filter: {extension: {regex: "/(jpg)|(png)|(jpeg)/"}, name: {nin: ["gatsby-icon","mpv-logo","img-1","img-2", "img-3","img-7" "img-8","img-9","muchachada-1","muchachada-2","muchachada"]}}) {
+    allFile(filter:{absolutePath: {regex: "/static/assets/galeria/"}} ) 
+    {
       edges {
         node {
           base
@@ -23,7 +24,7 @@ const Image = () => {
 
   return(
     <div className="image-container">
-        <h1 style={{textAlign: 'center'}}>Galeria</h1>
+        <h1 style={{textAlign: 'center'}}>Galería</h1>
         <div className="image-grid">
             {data.allFile.edges.map((image,key) =>(
                 <GatsbyImage key={key}

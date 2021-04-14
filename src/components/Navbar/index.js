@@ -50,7 +50,7 @@ export default function NavBar() {
                 <Nav active={scroll} click={click}>
             <NavbarContainer>
                 <NavLogo to="/">
-                    <NavIcon/>
+                  
                     <img src={logo} alt={logo}
                          css={`
                          width: auto;
@@ -58,6 +58,7 @@ export default function NavBar() {
                         @media screen and (max-width: 920px){
                           width: auto;
                           height: 60px;
+                          margin-left: 2.3rem;
                           }
                         `}
                     />
