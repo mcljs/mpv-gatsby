@@ -8,7 +8,7 @@ import "./image.css"
 const Image = () => {
   const data = useStaticQuery(graphql`
   query {
-    allFile(filter:{absolutePath: {regex: "/static/assets/galeria/"}} ) 
+    allFile(filter:{absolutePath: {regex: "/static/assets/img/galeria/"}} ) 
     {
       edges {
         node {
