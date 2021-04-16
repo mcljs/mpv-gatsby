@@ -37,6 +37,7 @@ module.exports = {
             endpoint: 'https://gmail.us7.list-manage.com/subscribe/post?u=f2b09504ccc94e655393cf34f&amp;id=000de9b5d6', 
         },
     },
+    `gatsby-plugin-twitter`,
     `gatsby-plugin-mdx`,
     `gatsby-plugin-gatsby-cloud`,
     `gatsby-plugin-react-helmet`,
