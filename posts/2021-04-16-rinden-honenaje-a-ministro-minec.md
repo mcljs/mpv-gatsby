@@ -1,13 +1,13 @@
 ---
 date: 2021-04-16 16:54:22
-image: /static/assets/img/2021-04-16-oswaldo/oswaldo.jpg
+image: /assets/img/2021-04-16-oswaldo/oswaldo.jpg
 title: Rinden homenaje al ministro para el Ecosocialismo Oswaldo Barbera
 description: null
 twitter_text: Rinden homenaje al ministro para el Ecosocialismo Oswaldo Barbera
 category: null
 timeToRead: 2 minutos de lectura
 ---
-![Vargas](/static/assets/img/2021-04-16-oswaldo/oswaldo.jpg)
+![Minec](/assets/img/2021-04-16-oswaldo/oswaldo.jpg)
 
 Desde las instalaciones del Parque Generalísimo Francisco de Miranda, específicamente en la Capilla Ardiente, en Caracas, se llevó a cabo un homenaje en memoria del ministro para el Ecosocialismo, Oswaldo Barbera.
 
