@@ -1,13 +1,13 @@
 ---
 date: 2021-04-16 16:54:22
-image: https://res.cloudinary.com/movimiento-por-la-paz-y-la-vida/image/upload/v1618605459/blog/IMG-20210412-WA0093_w8lur5.webp
+image: /assets/img/2021-04-16-inaguracion/img-1.jpg
 title: Inauguran novena Farmacia por la Paz y la Vida en el Mercado Bolivariano de La Hoyada en Caracas
 description: null
 twitter_text: Inauguran novena Farmacia por la Paz y la Vida en el Mercado Bolivariano de La Hoyada en Caracas
 category: null
 timeToRead: 2 minutos de lectura
 ---
-![Vargas](https://res.cloudinary.com/movimiento-por-la-paz-y-la-vida/image/upload/v1618605459/blog/IMG-20210412-WA0093_w8lur5.webp)
+![Vargas](/assets/img/2021-04-16-inaguracion/img-1.jpg)
 
 El secretario ejecutivo del Movimiento por la Paz y la Vida y diputado a la Asamblea Nacional (AN), Alexander Vargas, informó sobre la inauguración de una nueva de farmacia en el Mercado Bolivariano de La Hoyada, ubicado en Caracas, a fin de seguir garantizando medicamentos gratuitos al pueblo venezolano. #14Abril
 

@@ -1,13 +1,13 @@
 ---
 date: 2021-04-16 16:54:22
-image: https://res.cloudinary.com/movimiento-por-la-paz-y-la-vida/image/upload/v1618606117/blog/photo_2021-04-16_16-24-48_nb2xoh.webp
+image: /static/assets/img/2021-04-16-oswaldo/oswaldo.jpg
 title: Rinden homenaje al ministro para el Ecosocialismo Oswaldo Barbera
 description: null
 twitter_text: Rinden homenaje al ministro para el Ecosocialismo Oswaldo Barbera
 category: null
 timeToRead: 2 minutos de lectura
 ---
-![Vargas](https://res.cloudinary.com/movimiento-por-la-paz-y-la-vida/image/upload/v1618606117/blog/photo_2021-04-16_16-24-48_nb2xoh.webp)
+![Vargas](/static/assets/img/2021-04-16-oswaldo/oswaldo.jpg)
 
 Desde las instalaciones del Parque Generalísimo Francisco de Miranda, específicamente en la Capilla Ardiente, en Caracas, se llevó a cabo un homenaje en memoria del ministro para el Ecosocialismo, Oswaldo Barbera.
 
