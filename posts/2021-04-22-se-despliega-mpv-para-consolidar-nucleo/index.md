@@ -22,4 +22,3 @@ Asimismo, Beysimar Pérez, explicó el nivel de compromiso político que asumen 
 Finalmente, Keywer Andrade, Secretario de Juventud del Movimiento por la Paz y la Vida, explicó las tareas puntuales de los Núcleos de Paz; 'Tenemos varias tareas, entre ellas la de llevar la Paz a todos los barrios de Venezuela, a órganizar la Juventud y entregar todo el poder para organizar el deporte,  la cultura, recreación y actividad física. Entregar todos los espacios a la juventud organizada, tarea que realizaremos eje por eje, con mucha mística y disciplina', concluyó.
 
 **Yaritza Galvis Ystúriz**
-Fotos: **Enrique Hernández**

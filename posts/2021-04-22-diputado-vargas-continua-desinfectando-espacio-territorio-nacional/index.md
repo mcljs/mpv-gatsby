@@ -24,4 +24,3 @@ Asimismo, informó que atenderá espacios deportivos del punto y circulo y lleva
 Finalmente, ratificó el compromiso de seguir desinfectado, embelleciendo y recuperando los espacios que sean necesarios: 'Ahorita estamos enfocados en vencer el Covid-19, pedimos a toda la ciudadanía a respetar las medidas emanadas por nuestro presidente Nicolás Maduro Moros, que ha sido estratega, y sobre todo protector', concluyó el líder político y pacificador.
 
 **Yaritza Galvis Ystúriz**
-Fotos: **Enrique Hernández**
