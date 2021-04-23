@@ -1,4 +1,4 @@
---
+---
 date: 2021-04-22 16:54:22
 image: ./image-1.jpg
 title: Se despliega el equipo político del Movimiento por la Paz y la Vida para consolidar los Núcleos de Paz
