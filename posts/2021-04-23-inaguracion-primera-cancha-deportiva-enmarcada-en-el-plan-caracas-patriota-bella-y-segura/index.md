@@ -1,6 +1,6 @@
 ---
-date: 2021-03-09 11:54:22
-image: /assets/img/2021-03-09-desinfeccion-por-mpv-en-fermin-toro/img-1.jpg
+date: 2021-04-23 11:54:22
+image: ./2021-04-23.jpg
 title: Alexander Vargas inauguró la primera cancha deportiva enmarcado en el Plan Caracas Patriota, Bella y Segura
 description: Este viernes 23 de abril se llevó a cabo la primera inauguración de la cancha deportiva, ubicada en La Pastora, municipio Libertador, en conjunto con el Fondo Nacional Antidroga (FONA), del Ministerio del Interior Justicia y Paz
 twitter_text: Alexander Vargas inauguró la primera cancha deportiva enmarcado en el Plan Caracas Patriota, Bella y Segura
