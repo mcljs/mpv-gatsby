@@ -25,7 +25,6 @@ import Share from '../components/Share'
           {post.frontmatter.date} 
         </S.PostDate>
         <S.PostTitle>{post.frontmatter.title}</S.PostTitle>
-        <S.PostDescription>{post.frontmatter.description}</S.PostDescription>
       </S.PostHeader>
       <S.MainContent>
         <div dangerouslySetInnerHTML={{ __html: post.html }}></div>
