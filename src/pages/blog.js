@@ -17,7 +17,7 @@ const Blog = props =>  {
 
   const {allMarkdownRemark} = useStaticQuery(graphql`
   query PostList {
-    allMarkdownRemark(sort: {fields: frontmatter___date, order: DESC},limit: 5) {
+    allMarkdownRemark(sort: {fields: frontmatter___date, order: DESC},limit: 15) {
       edges {
         node {
           fields {
