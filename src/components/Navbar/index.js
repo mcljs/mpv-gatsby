@@ -80,7 +80,7 @@ export default function NavBar() {
                         <NavLinks to="/nosotros">Nosotros</NavLinks>
                     </NavItem>
                     <NavItem>
-                        <NavLinks to="/nosotros">Registro de pacificadores</NavLinks>
+                        <NavLinks to="/pacificadores">Registro de pacificadores</NavLinks>
                     </NavItem>
                     {/*<NavItem>
                                    <NavLinks to="/programas">Programas</NavLinks>
