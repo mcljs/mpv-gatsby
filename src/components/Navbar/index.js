@@ -79,6 +79,9 @@ export default function NavBar() {
                     <NavItem>
                         <NavLinks to="/nosotros">Nosotros</NavLinks>
                     </NavItem>
+                    <NavItem>
+                        <NavLinks to="/nosotros">Registro de pacificadores</NavLinks>
+                    </NavItem>
                     {/*<NavItem>
                                    <NavLinks to="/programas">Programas</NavLinks>
                     </NavItem>
