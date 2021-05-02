@@ -23,7 +23,7 @@ const Estadisticas = () => (
 <h1>Estadisticas del Movimiento por la Paz y la Vida</h1>
 
           <h3>Total Actividades Planificadas 2021:</h3>
-   <h4>962</h4>
+   <h4>4.105</h4>
           <h1>------------</h1>
 
 
