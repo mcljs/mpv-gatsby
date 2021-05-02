@@ -37,12 +37,12 @@ const Estadisticas = () => (
 </div>
 
 <div className="grafica">
-<p>Actividades Planificadas Enero - Febrero</p>
+<p>Actividades Planificadas Enero - Mayo</p>
 <CharTwo/>
 </div>
 
 <div className="grafica">
-<p>% de Actividades Planificada Enero - Febrero 2021 por Vértice</p>
+<p>% de Actividades Planificada Enero - Mayo 2021 por Vértice</p>
 <ChartFour/>
 </div>
 
