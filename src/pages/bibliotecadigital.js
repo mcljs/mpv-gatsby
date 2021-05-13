@@ -1,41 +1,42 @@
-import React from 'react';
-import Layout from '../components/layout';
-import SEO from '../components/Seo';
-import '../../src/components/layout.css'
-import { MainContent } from '../components/styles/base'
-import BibliotecaSeason from '../components/biblioteca/season';
-import {BibliotecaData} from '../data/biblioteca'
+import React from "react"
+import Layout from "../components/layout"
+import SEO from "../components/Seo"
+import "../../src/components/layout.css"
+import { MainContent } from "../components/styles/base"
+import BibliotecaSeason from "../components/biblioteca/season"
+import { BibliotecaData } from "../data/biblioteca"
 
-
-const Ej = () =>{
-
-
-
-
-  return(
+const Ej = () => {
+  return (
     <Layout>
-       
-        <SEO title="Biblioteca digital" />
-      <h1 className="biblioteca" style={{fontSize: '4.2rem',textAlign : 'center'}}>Biblioteca Digital</h1>
+      <SEO title="Biblioteca digital" />
+      <h1
+        className="biblioteca"
+        style={{ fontSize: "4.2rem", textAlign: "center" }}
+      >
+        Biblioteca Digital
+      </h1>
 
-
-      <BibliotecaSeason  biblioteca={BibliotecaData}
+      <BibliotecaSeason
+        biblioteca={BibliotecaData}
         url="vivencia"
-      seccion="Vivencias Paz y Vida"
-      publisher="Vivencias Paz y Vida"
-      articulo="0"/>
+        seccion="Vivencias Paz y Vida"
+        publisher="Vivencias Paz y Vida"
+        articulo="0"
+      />
 
-      <BibliotecaSeason css={{marginTop: '1.5rem'}} biblioteca={BibliotecaData}
-      url="planes"
+      <BibliotecaSeason
+        css={{ marginTop: "1.5rem" }}
+        biblioteca={BibliotecaData}
+        url="planes"
         seccion="Planes y Programas"
         publisher="Planes y Programas"
-      articulo="2"/>
-     
-        <MainContent>
+        articulo="2"
+      />
 
-        </MainContent>
-       
-    </Layout> 
-)}
+      <MainContent></MainContent>
+    </Layout>
+  )
+}
 
 export default Ej

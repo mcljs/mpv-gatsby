@@ -23,7 +23,7 @@ const Estadisticas = () => (
 <h1>Estadisticas del Movimiento por la Paz y la Vida</h1>
 
           <h3>Total Actividades Planificadas 2021:</h3>
-   <h4>962</h4>
+   <h4>4.105</h4>
           <h1>------------</h1>
 
 
@@ -37,12 +37,12 @@ const Estadisticas = () => (
 </div>
 
 <div className="grafica">
-<p>Actividades Planificadas Enero - Febrero</p>
+<p>Actividades Planificadas Enero - Mayo</p>
 <CharTwo/>
 </div>
 
 <div className="grafica">
-<p>% de Actividades Planificada Enero - Febrero 2021 por Vértice</p>
+<p>% de Actividades Planificada Enero - Mayo 2021 por Vértice</p>
 <ChartFour/>
 </div>
 
