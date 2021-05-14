@@ -96,9 +96,9 @@ export default function NavBar() {
                     <NavItem>
                         <NavLinks to="/estadisticas">Estadisticas</NavLinks>
                     </NavItem>*/}
-                    <NavItem>
+                  {/*<NavItem>
                         <NavLinks to="/search"><FaSearch/></NavLinks>
-                    </NavItem>
+                    </NavItem>*/}
                         <NavLinksReponsive to="/gbmp">
                             Grandes Bases de Paz
                         </NavLinksReponsive>
