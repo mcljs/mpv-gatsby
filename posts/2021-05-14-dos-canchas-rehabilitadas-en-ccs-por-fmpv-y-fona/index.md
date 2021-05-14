@@ -23,6 +23,7 @@ Fueron 205 cuadrilleros, 300 voluntarios, los que se desplegaron durante 5 días
 Finalmente, manifestó que este fin de semana llegarán casi a 40 canchas entregadas, para el disfrute de la Juventud y Muchachada; 'Estamos entregando espacios para el realce de valores, y reimpulso de la recreación y actividad física de las comunidades más vulnerables de Caracas', explicó Vargas.
 
 **C. Jeovanna R.**
+
 Fotos: **Enrique Hernández**
 
 
