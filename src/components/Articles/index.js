@@ -78,7 +78,8 @@ color: rgba(17, 24, 39, var(--tw-text-opacity));
 
 export const TimeFechaGrid = styled.time`
 padding-top: 1rem;
-    color: #888;
+--tw-text-opacity: 1;
+color: rgba(75, 85, 99, var(--tw-text-opacity));
     text-transform: uppercase;
     font-weight: 700;
     font-size: 1.1rem;
@@ -96,7 +97,8 @@ padding-right: 0.75rem;
 
 export const TimeFecha = styled.time`
 padding-top: 1rem;
-    color: #888;
+--tw-text-opacity: 1;
+color: rgba(75, 85, 99, var(--tw-text-opacity));
     text-transform: uppercase;
     font-weight: 700;
     font-size: 1.1rem;
