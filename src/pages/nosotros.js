@@ -13,7 +13,7 @@ const Nosotros = () => (
         
         <MainContent>
         <h1>Fundacion Movimiento por la Paz y la Vida</h1>
-          <h4><strong>Ministerio del Poder Popular del Despacho de la Presidencia y Seguimiento de la Gestion de Gobierno<strong/></strong></h4> 
+          <h4><strong>Adscrita al Ministerio del Poder Popular del Despacho de la Presidencia y Seguimiento de la Gestión de Gobierno<strong/></strong></h4> 
 
          <h4 style={{color: '#e41e25'}}>Misión</h4>
 
