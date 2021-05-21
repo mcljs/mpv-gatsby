@@ -9,6 +9,7 @@ export default function NavBar() {
     const [click, setClick] = useState(false)
     const [scroll, setScroll] = useState(false)
 
+    
     const handleClick = () => setClick(!click)
 
     const changeNav = () => {
