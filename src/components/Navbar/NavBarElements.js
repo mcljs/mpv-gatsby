@@ -42,11 +42,15 @@ height: 10px;
 
 export const NavbarContainer = styled.div`
 display: flex;
+padding-left: 6rem;
 justify-content: space-between;
-height: 80px;
+
 z-index: 1;
 width: 100%;
-max-width: 1000px;
+@media screen and (max-width: 960px){
+padding-left: 0rem;
+
+    }
 `
 
 export const NavLogo = styled(Link)`
